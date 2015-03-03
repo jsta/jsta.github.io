@@ -18,3 +18,11 @@ author:
   url:            https://twitter.com/jjstache
 
 paginate:         5
+
+logos:
+- site: https://twitter.com/jjstache
+img: public/images/Twitter_logo_blue.png
+- site: http://scholar.google.com/citations?user=IkYbVz8AAAAJ&hl=en
+img: public/images/GSIcon.jpg
+- site: https://github.com/jsta
+img: public/images/github-11-128.png
