@@ -20,7 +20,7 @@ author:
 paginate:         5
 
 logos:
-  - site: https://twitter.com/jjstache
+  - site: http://twitter.com/jjstache
   img: public/images/Twitter_logo_blue.png
   - site: http://scholar.google.com/citations?user=IkYbVz8AAAAJ&hl=en
   img: public/images/GSIcon.jpg
