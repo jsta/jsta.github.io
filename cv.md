@@ -11,16 +11,6 @@ cv: True
 - [jstachel@sfwmd.gov](jstachel@sfwmd.gov)
 - [jsta.github.io](http://jsta.github.io)
 
-<div id="cv-nav">
-
-- [Education](#education)
-- [Research](#research)
-- [Teaching](#teaching)
-- [Research Products](#research-products-and-presentations)
-- [Qualifications and Activities](#qualifications-and-activities)
-
-</div>
-
 ##Education
 
 May 2012
@@ -44,6 +34,18 @@ Sep 2008 – May 2012
   : Marine Science Master’s Research, University of Texas Marine Science Institute, Marine Botany Lab, Port Aransas, TX
   : - Researched the environmental and management controls on salt marsh vegetation by combining a synthesis of long term data with fine-scale porewater monitoring. Research products were included in the discussion of regional water resources management plans.
 
-
-
 ##Research Products and Presentations
+
+Peer Reviewed Articles
+  : - Stachelek J., Madden, C.J. 2015. Application of Inverse Path Distance Weighting for high density spatial mapping of coastal water quality patterns. International Journal of Geographical Information Science.
+  : - Stachelek, J., Dunton K.H. 2013. Freshwater inflow requirements for the Nueces Delta, Texas: Spartina alterniflora as an indicator of ecosystem condition. Texas Water Journal. 4(2), 62-73.[pdf](public/files/StachelekDunton2013.pdf)
+  : - S.R. Park, Stachelek, J., Dunton, K.H. (submitted) Photosynthesis and drought resilience in three vascular plant species common to the western Gulf of Mexico. Estuaries and Coasts.
+
+Thesis
+  : - Stachelek, J. 2012. Freshwater inflows in the Nueces Delta, TX : impacts on porewater salinity and estimation of needs. Masters of Marine Science, University of Texas. [link](http://http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549)
+  
+Software
+  : - Stachelek, J. 2014. ipdw: Interpolation by Inverse Path Distance Weighting. R package version 0.2. [CRAN] (http://CRAN.R-project.org/package=ipdw)
+  
+Other Publications
+  : - Stachelek J., S. Hall. 2008.  Intertidal Flora of Acadia National Park. National Park Service/University of Maine. [link](http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf).
