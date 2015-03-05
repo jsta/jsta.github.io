@@ -38,7 +38,9 @@ Sep 2008 – May 2012
 
 Peer Reviewed Articles
   : - Stachelek J., Madden, C.J. 2015. Application of Inverse Path Distance Weighting for high density spatial mapping of coastal water quality patterns. International Journal of Geographical Information Science.
+  
   : - Stachelek, J., Dunton K.H. 2013. Freshwater inflow requirements for the Nueces Delta, Texas: Spartina alterniflora as an indicator of ecosystem condition. Texas Water Journal. 4(2), 62-73.[pdf](public/files/StachelekDunton2013.pdf)
+  
   : - S.R. Park, Stachelek, J., Dunton, K.H. (submitted) Photosynthesis and drought resilience in three vascular plant species common to the western Gulf of Mexico. Estuaries and Coasts.
 
 Thesis
