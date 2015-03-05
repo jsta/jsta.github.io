@@ -1,28 +1,44 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Joseph Stachelek</title>
+ <link href="http://jsta.github.io/atom.xml" rel="self"/>
+ <link href="http://jsta.github.io/"/>
+ <updated>2015-03-04T20:01:28-05:00</updated>
+ <id>http://jsta.github.io</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name>Joseph Stachelek</name>
+   <email></email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Second post</title>
+   <link href="http://jsta.github.io/2015/02/28/second-post/"/>
+   <updated>2015-02-28T00:00:00-05:00</updated>
+   <id>http://jsta.github.io/2015/02/28/second-post</id>
+   <content type="html">&lt;p&gt;My second post will discuss the topic of topics. This is mostly gibberish.&lt;/p&gt;
+
+&lt;h3&gt;Gibberish&lt;/h3&gt;
+
+&lt;p&gt;Gibberish includes the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Complete Gibberish&lt;/li&gt;
+&lt;li&gt;Partial Gibberish&lt;/li&gt;
+&lt;li&gt;Some Gibberish&lt;/li&gt;
+&lt;/ul&gt;
+</content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>First Post</title>
+   <link href="http://jsta.github.io/2015/02/28/first-post/"/>
+   <updated>2015-02-28T00:00:00-05:00</updated>
+   <id>http://jsta.github.io/2015/02/28/first-post</id>
+   <content type="html">&lt;p&gt;This is my first post on the new site. Glad to be migrated from Google Pages!&lt;/p&gt;
+</content>
+ </entry>
+ 
 
 </feed>
