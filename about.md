@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-This site serves as the personal homepage of , *Joseph Stachelek*. You can follow him [@jjstache](https://twitter.com/jjstache).
+This site serves as the personal homepage of , *Joseph Stachelek*.
 
 His work can be found on:
 
