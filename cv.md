@@ -22,9 +22,9 @@ cv: True
 
 ##Education
 
-December 2004
-  : Doctor of Philosophy in Environmental Science
-  : - Department of Natural Resources Science, University of Rhode Island, Kingston, RI
+May 2012
+  : Masters of Marine Science
+  : - Department of Marine Science, University of Texas, Austin, TX
   : - Areas of emphasis: Landscape Ecology, Geospatial Sciences, and Environmental Monitoring
   : - Coursework in: Coastal Ecology, Geographic Information Systems, Landscape Ecology, and Statistics
   : - Dissertation Topic: Predicting Condition of Small Estuarine Systems along the United States' Atlantic Coast. (Advisor: Peter V. August, Ph. D.)
