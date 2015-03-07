@@ -4,16 +4,11 @@ title: Curriculum Vitae
 cv: True
 ---
 
-#Jeffrey W. Hollister
-- updated: 2 Dec 2014
-- U.S. Environmental Protection Agency
-- Atlantic Ecology Division
-- 27 Tarzwell Drive
-- Narragansett, RI 02881
-- (o)401 782 9655
-- (c)401 556 4087
-- [hollister.jeff@epa.gov](hollister.jeff@epa.gov)
-- [jwhollister.com](http://jwhollister.com)
+#Joseph Stachelek
+- updated: 6 Mar 2015
+- South Florida Water Management District
+- [jstachel@sfwmd.gov](jstachel@sfwmd.gov)
+- [jsta.github.io](http://jsta.github.io)
 
 <div id="cv-nav">
 
@@ -211,102 +206,3 @@ Posters
   : - J. Ott., J. W. Hollister, C. Guyer, and W. K. Michener. Re-evaluating Guidelines for Gopher Tortoise (Gopherus polyphemus) Reserve Design. Ecological Society of America Annual Meeting, Snowbird, UT. August 2000.
   : - Hollister, J. W., J. Ott, C. Guyer, and W. K. Michener. Estimating Preserve Size for Gopher Tortoises (Gopherus polyphemus). US Chapter of the International Association for Landscape Ecology Annual Meeting, Ft. Lauderdale, FL. April 2000.
   : - Hollister, J. W. and W. K. Michener. Landscape Ecology of the Northern Bobwhite Quail in the Coastal Plain of Georgia. International Association for Landscape Ecology World Congress, Snowmass, CO. July/Aug 1999.
-
-##Qualifications and Activities
-
-Programming
-  : R  
-  : - I started using R in 2003 for data analysis and have been using it daily for basic computing and programming tasks since 2011.  I have created packages with one on CRAN and several in development on GitHub. I co-moderate (with Sarah Goslee) the R-SIG-Ecology mailing list, and have taught several classes/workshops on R.
-  : Web
-  : - I have served as a web page maintainer for various organizations since ~2000.  Currently I maintain my own website and a few small project websites.  I use HTML, CSS, Jekyll, Github pages as the primary development environment and I am comfortable coding sites from scratch or implementing templates and frameworks (i.e. Skeleton or Bootstrap).  I have limited experience with javascript and in the past have been responsible for limited maintenance of  Apache and IIS servers.  
-  : Python
-  : - Starting in 2006, I have written Python scripts to interact with ESRI products.  Since then,  I have also developed many scripts for data management, data collection, interacting with the Twitter API, and communicating with R.   
-  : Java
-  : - I have about one year experience with Java, primarily from computer science coursework.  
-  : Misc 
-  : - I use markdown and Rmarkdown extensively for developing web content, creating reproducible presentations and writing manuscripts.  Over the years I have also used a variety of tools for individual projects.  These include Visual Basic for Applications, Arc Macro Language, Typo3, Dreamweaver, Movable Type, Drupal, and RApache
-  
-Data Management and Analysis
-  : GIS
-  : - Since 2012, I have used R (with `sp`, `rgdal`, `rgeos`, and `raster`) as my primary GIS and spatial analysis platform. The prior 17 years I extensively used the ESRI product line including ArcGIS, Arc/INFO, ArcView, ArcIMS and ArcGIS Server, and Geostatistical Analyst.  I have limited experience using GRASS.  
-  : Statistics
-  : - My statistics work has been conducted primarily in R since 2003.  I have experience with many many statistical methods including least squares, logistic regression, information theoretic model selection, principal components, multi-dimensional scaling, boosted regression, and Random Forests.  In the past I have used SAS, SPSS, SPlus, and SigmaPlot.
-  : Data
-  : - I have many years experience managing small to medium-sized research datasets.  I have done this using relational databases (Access, SQLite), flat files, and for spatial data, shapefiles, coverages, and File Geodatabases.  
-  : Remote Sensing 
-  : - I have experience analyzing aerial photography and satellite imagery to develop land use/land cover classifications and used a variety of accuracy assessment methods and approaches.  Must of my past remote sensing work was conducted with ERDAS Imagine.
-  : GPS
-  : - I have collected GPS data from a variety of devices including Trimble ProXR, Trimble GeoExplorer, Trimble GeoXT, Garmin Chartplotters, and associated device specific software. 
-
-OS and Misc
-  : Linux
-  : - I use Red Hat (RHEL 6) and Ubuntu daily. I have built and am responsible for system administration on several Ubuntu (12.04 and 14.04) machines.
-  : Windows
-  : - I use Windows (NT/2000/XP/7) daily and am capable of basic systems administration.
-  : Misc
-  : - I have extensive knowledge of Microsoft Office 2000-2013 and have limited networking and hardware maintenance experience. 
-  
-Research Funding
-  : - USEPA Safe and Sustainable Water Research Program Task 2.3C: Cyanobacteria, nutrients, and land use – a nexus for sustainable water resources and human health protection, co-lead with B. J. Kreakie. 2013 - 2016.
-  : - Geospatial Statistical Analysis Seminar, A Cooperative Training Project Between the University of Rhode Island and the US EPA Atlantic Ecology Division, US EPA NHEERL Grant, June 2003. PI's: P. August, L. González; Co-PI's: R. Sand, J. Opaluch, J. Hollister, and D. Grossman-Garber.
-  : - Estuarine Condition and Landscape Structure Relationships in the Mid-Atlantic and Southern New England Regions of the United States, EPA/URI Pre-Doctoral Fellowship (Major Advisor: Peter V. August, EPA Mentor: John F. Paul).
-
-Awards: 
-  : - US EPA, Region 1, 2011 Commendable Service Award for Contributions to the Northeast Lakes and Ponds
-  : - 2010 US EPA Science and Technological Achievement Award Honorable Mention 
-  : - 2010 ESRI International Users Conference, First Place Poster in Software Integration.
-  : - USEPA, National Health and Environmental Effects Laboratory, 2007 Strategic Goal 4 Award: Science Integration –Interdivisional Laboratory Research, Received with Eric Weissberger, Anita Morzillo, Janet Nestelrode, and John Paul.
-  : - USEPA, Atlantic Ecology Division, 2006 On The Spot Award, Contributions to SABS Workshop
-  : - Best Student Presentation, North Atlantic Chapter of the Society of Environmental Toxicology and Chemistry 9th Annual Meeting, Mystic CT, 2003
-  : - 2003 Rhode Island Surfrider Foundation Robert Lloyd Scholarship
-  : - 2001 NASA-MSU Professional Enhancement Award
-  : - Phi Eta Sigma National Honor Society
-  : - Blue Key National Honor Society
-  
-Graduate Students
-  : Galen Scott
-  : - 2013-Present, Ph.D. Oral Defense and Dissertation Committee, University of Rhode Island, Kingston, RI
-  : Kylie Bishop
-  : - 2008, Ph. D. Thesis Defense Committee, Deakin University, Warrnambool, Australia
-  : Ann Borowik
-  : - 2008, Masters of Environmental Science and Management Written Comprehensive Exam Committee, University of Rhode Island, Kingston, RI.
-
-Other Activities
-  : - Adjunct Assistant Professor, Department of Natural Resources Science, University of Rhode Island, Kingston, RI, Jan 2007 - Present.
-  : - Senior Fellow, Coastal Institute, University of Rhode Island, Narragansett, RI, Dec 2005 – Present.
-  : - List administrator for R-sig-ecology, a Special Interest Group mailing list on the use R in Ecology, April 2008 - Present.
-  : - Provided Peer Review for: Landscape Ecology, Trends in Ecology and Evolution, Plant Ecology, Integrated Environmental Assessment and Management, Remote Sensing of Environment, Journal of Environmental Quality, Selbyana, Minnesota Sea Grant, and numerous USEPA Office of Research and Development internal reviews.
-  : - Served on Steering Committee for The Nature Conservancy's Northeast Lake and Pond Classification System. link: [web](http://nature.ly/NElakes) [pdf](https://easterndivision.s3.amazonaws.com/Freshwater/Northeast_Lake_and_Pond_Classification.pdf)
-  : - Liaison between USEPA’s Ecosystem Services Research Program (ESRP) and the National Ecological Observatory Network (NEON).
-  : - Participated in the Causal Analysis/Diagnosis Decision Information System (CADDIS) Planning Retreat at Hueston Woods Conference Center, Oxford, OH, April 30 – June 3.
-  : - Co-organized (along with Jason Grear, Suzy Ayvazian, Peter August and Deb Coty) a short course by David Anderson entitled, "Information Theoretic Model Selection and Multimodel Inference in Science and Management", March 28-29, URI Coastal Institute, Narragansett, RI.
-  : - Section Editor,“Ecology on the Web” Department of the Bulletin of the Ecological Society of America, 2007 - 2010.
-  : - Attended Science Environment for Ecological Knowledge (SEEK) Postdoctoral and New Faculty Training in ecoinformatics: Jan 8-12, 2007, University of New Mexico.
-  : - Graduate Student Representative to Department of Natural Resources Science at the University of Rhode Island for 4 years
-  : - Graduate student representative at URI-ADVANCE workshops with Department of Natural Resources Science at the University of Rhode Island
-  : - Helped draft a Diversity Statement for Department of Natural Resources Science at the University of Rhode Island
-  : - Assisted with compiling links of software and graduate programs in spatial ecology for the [US-IALE web page](http://www.usiale.org/related-links).
-
-Societies
-  : US Chapter of the International Association of Landscape Ecology: 
-  : - Site Selection Committee 2012- Present (Chair 2012-2014)
-  : - Awards Committee, 2009 - Present
-  : - Counselor at Large, 2012-2014
-  : - Program Chair, 2012 Annual Meeting, Newport, RI
-  : - Strategic Planning Committee, 2004-2006
-  : Northeast Arc Users Group; Host Committee and Social Chair for 2010 Northeast Arc Users Group annual meeting in Newport, RI.
-  : - Chair, Poster session 2006 Northeast Arc Users Group annual meeting in Mystic, CT
-  : - Host Committee for 2006 Northeast Arc Users Group annual meeting in Mystic, CT
-  : Ecological Society of America
-  : - Member, lapsed
-  : Rhode Island Natural History Survey
-  : - Member, Lapsed
-  : Society for Conservation GIS
-  : - Member, lapsed
-  
-Additional Information
- : - Award Winning Homebrewer
- : - Barbeque-er
- : - Mediocre Dart player
- : - Retired mediocre Ultimate player
- : - SCUBA Certified
