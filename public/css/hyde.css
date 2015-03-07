@@ -38,12 +38,16 @@ html {
   html {
     font-size: 16px;
   }
+  .post p {
+    font-size: 20px;
+  }
 }
+/*
 @media (min-width: 58em) {
   html {
     font-size: 20px;
   }
-}
+}*/
 
 
 /*
@@ -80,7 +84,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 3.5rem;
 }
 
 /* Sidebar nav */
@@ -114,6 +118,23 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/* Sidebar logos */
+.logos {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.logos ul {
+  list-style-type: none;
+  display: inline-flex;
+  text-align: center;
+}
+
+.logos li {
+  padding: 10px;
+}
 
 /* Container
  *
@@ -133,13 +154,13 @@ a.sidebar-nav-item:focus {
     margin-right: 2rem;
   }
 }
-
+/*
 @media (min-width: 64em) {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
   }
-}
+}*/
 
 
 /*
@@ -159,12 +180,13 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/*
 @media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
     margin-right: 22rem;
   }
-}
+}*/
 
 
 
@@ -248,3 +270,26 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* @jhollist Blue */
+  .theme-base-0g .sidebar {
+    background-color: #162d50;
+  }
+  .theme-base-0f .content a,
+  .theme-base-0f .related-posts li a:hover {
+    color: #162d50;
+  }
+  .theme-base-0g h1, h2, h3, h4, h5, h6 {
+    color: #162d50;
+  }
+  .theme-base-0g .page-title, .post-title, .post-title a {
+  color: #162d50;
+  }
+  .theme-base-0g .sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 2.25rem;
+  }
+  .theme-base-0g .sidebar {
+  text-align: left;
