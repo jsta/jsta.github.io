@@ -26,7 +26,7 @@ May 2012
   : Masters of Marine Science
   : - Department of Marine Science, University of Texas, Austin, TX
   : - Areas of emphasis: Wetland Ecology, Water Resources Management, and Environmental Monitoring
-  : - Thesis Topic: Using Emergent Wetland Plant Dynamics to Prescibe Freshwater Inflow Needs for Texas Estuaries (Advisor: Ken Dunton, Ph. D.)
+  : - Thesis Topic: Using Emergent Wetland Plant Dynamics to Prescibe Freshwater Inflow Needs for Texas Estuaries (Advisor: Ken Dunton, Ph.D.)
 
 May 2008
   : Bachelor of Science
