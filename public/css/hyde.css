@@ -277,13 +277,13 @@ a.sidebar-nav-item:focus {
   }
   .theme-base-0f .content a,
   .theme-base-0f .related-posts li a:hover {
-    color: #162d50;
+    color: #fff;
   }
   .theme-base-0g h1, h2, h3, h4, h5, h6 {
-    color: #162d50;
+    color: #fff;
   }
   .theme-base-0g .page-title, .post-title, .post-title a {
-  color: #162d50;
+  color: #fff;
   }
   .theme-base-0g .sidebar-about h1 {
     color: #fff;
