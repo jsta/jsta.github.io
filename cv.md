@@ -6,8 +6,6 @@ cv: True
 
 #Joseph Stachelek
 - updated: 6 Mar 2015
-- South Florida Water Management District
-- [jstachel@sfwmd.gov](jstachel@sfwmd.gov)
 - [jsta.github.io](http://jsta.github.io)
 
 <div id="cv-nav">
