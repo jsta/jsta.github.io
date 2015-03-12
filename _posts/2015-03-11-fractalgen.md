@@ -6,9 +6,12 @@ title: Random fractal maps
 I wanted to share the results of my quest to produce random fractal maps. I eventually went with the GRASS r.surf.fractal script but before that I recreated the 2D midpoint displacement algorithm from Saupe (1988). The results are below. I think its solid but there still appears to be some artifacts which I have yet to track down.
 
 > Saupe, Dietmar. "Algorithms for random fractals." The science of fractal images. Springer New York, 1988. 71-136.
+>
 
+spaced
 
 ```
+
 #MidPointFM2D####
 #X: doubly indexed array of size (N+1)^2
 #maxlevel: maximal number of recursions
