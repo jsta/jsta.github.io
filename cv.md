@@ -35,7 +35,7 @@ May 2008
 2012-Present 
   : Additional Courses and Training
   : - Bayesian Inference and Hierachical Modeling, Fall 2013, Florida Atlantic University
-  : - Using R for High Performance Computing, Winter 2015, National Intitute for Mathematical and Biological Synthesis
+  : - Using R for High Performance Computing, Winter 2015, National Institute for Mathematical and Biological Synthesis
   
 ##Research
 
