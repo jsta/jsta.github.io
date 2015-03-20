@@ -5,7 +5,7 @@ title: Timescales for detecting SLR acceleration
 
 Recent interest in a paper on sea level rise acceleration (Haigh et al. 2014) has led me to attempt to reproduce their analysis.
 
-Below is R code that wrote to examine one of the stations from the paper (Key West). In future posts I will expand on this code to check the "sliding" window portion of the paper.
+Below is R code that I wrote to examine one of the stations from the paper (Key West). In future posts I will expand on this code to check the "sliding" window portion of the paper.
 
 ![kw_haigh](/public/images/kw_haigh.png)
 
