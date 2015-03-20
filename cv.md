@@ -57,7 +57,7 @@ Thesis
   : - Stachelek, J. 2012. Freshwater inflows in the Nueces Delta, TX : impacts on porewater salinity and estimation of needs. Masters of Marine Science, University of Texas. [link](http://http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549)
 
 Software
-  : - Stachelek, J. 2014. ipdw: Interpolation by Inverse Path Distance Weighting. R package version 0.2. [CRAN] (http://CRAN.R-project.org/package=ipdw)
+  : - Stachelek, J. 2014. ipdw: Interpolation by Inverse Path Distance Weighting. R package version 0.2. [CRAN](http://CRAN.R-project.org/package=ipdw)
   
 Other Publications
   : - Stachelek J., S. Hall. 2008.  Intertidal Flora of Acadia National Park. National Park Service/University of Maine. [link](http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf).
