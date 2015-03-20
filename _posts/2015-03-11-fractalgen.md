@@ -20,7 +20,7 @@ I wanted to share the results of my quest to produce random fractal maps. I even
         library(Oarray)
         library(raster)
         
-        reps=10 #numbers of simulated coasts
+        reps=10
         
         #load functions
         #interpolates inner points
