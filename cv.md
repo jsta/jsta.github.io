@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-<!---layout: page---!>
+layout: page
 output: pdf_document
 cv: yes
 ---
