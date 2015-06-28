@@ -54,8 +54,6 @@ Research Products and Presentations
 
 Peer Reviewed Articles
 ---------------------
-
-
   : - S.R. Park, Stachelek, J., Dunton, K.H. (submitted) Photosynthesis and drought resilience in three vascular plant species common to the western Gulf of Mexico. Estuaries and Coasts.
 
   : - Stachelek J., Madden, C.J. 2015. Application of Inverse Path Distance Weighting for high density spatial mapping of coastal water quality patterns. International Journal of Geographical Information Science. [pdf](public/stachmadden2015am.pdf)
