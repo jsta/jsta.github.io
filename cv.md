@@ -54,11 +54,11 @@ Research Products and Presentations
 
 Peer Reviewed Articles
 ---------------------
-  S.R. Park, Stachelek, J., Dunton, K.H. (submitted) Photosynthesis and drought resilience in three vascular plant species common to the western Gulf of Mexico. Estuaries and Coasts.
+:S.R. Park, Stachelek, J., Dunton, K.H. (submitted) Photosynthesis and drought resilience in three vascular plant species common to the western Gulf of Mexico. Estuaries and Coasts.
 
-  Stachelek J., Madden, C.J. 2015. Application of Inverse Path Distance Weighting for high density spatial mapping of coastal water quality patterns. International Journal of Geographical Information Science. [pdf](public/stachmadden2015am.pdf)
+:Stachelek J., Madden, C.J. 2015. Application of Inverse Path Distance Weighting for high density spatial mapping of coastal water quality patterns. International Journal of Geographical Information Science. [pdf](public/stachmadden2015am.pdf)
 
-  : - Stachelek, J., Dunton K.H. 2013. Freshwater inflow requirements for the Nueces Delta, Texas: Spartina alterniflora as an indicator of ecosystem condition. Texas Water Journal. 4(2), 62-73. [pdf](public/StachelekDunton2013.pdf)
+:Stachelek, J., Dunton K.H. 2013. Freshwater inflow requirements for the Nueces Delta, Texas: Spartina alterniflora as an indicator of ecosystem condition. Texas Water Journal. 4(2), 62-73. [pdf](public/StachelekDunton2013.pdf)
 
 Thesis
   : - Stachelek, J. 2012. Freshwater inflows in the Nueces Delta, TX : impacts on porewater salinity and estimation of needs. Masters of Marine Science, University of Texas. [link](http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549)
