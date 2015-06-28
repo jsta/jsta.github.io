@@ -72,15 +72,12 @@ Other Publications
 ------------------
 Stachelek J., S. Hall. 2008.  Intertidal Flora of Acadia National Park. National Park Service/University of Maine. [link](http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf)
   
-  Qualifications and Activities
+##Qualifications and Activities
 ===================================
 
 Societies
----------------------
-
-Foundation for Open Access Statistics 
-  : Member, Current
-
-Coastal and Estuarine Research Federation 
-  : Member, Current
+  : Foundation for Open Access Statistics: 
+  : - Member, Current
+  : Coastal and Estuarine Research Federation: 
+  : - Member, Current
 
