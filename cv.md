@@ -78,9 +78,9 @@ Stachelek J., S. Hall. 2008.  Intertidal Flora of Acadia National Park. National
 Societies
 ---------------------
 
-Foundation for Open Access Statistics
+Foundation for Open Access Statistics 
   : Member, Current
 
-Coastal and Estuarine Research Federation
+Coastal and Estuarine Research Federation 
   : Member, Current
 
