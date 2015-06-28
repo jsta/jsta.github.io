@@ -79,8 +79,8 @@ Societies
 ---------------------
 
 Foundation for Open Access Statistics
-:Member, Current
+	:Member, Current
 
 Coastal and Estuarine Research Federation
-:Member, Current
+	:Member, Current
 
