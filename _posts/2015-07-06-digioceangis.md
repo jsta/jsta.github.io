@@ -19,8 +19,8 @@ I encourage people to try this solution if you find yourself running long comput
 I learned several more details that really made my workflow possible:
 
 1. Using the `Rscript` program rather than direct use of RStudio was neccessary in order to prevent memory issues.
-..* Combining `Rscript` with [Makefiles](https://swcarpentry.github.io/make-novice/) allowed for processing comparmentalization.
-..* Adding a `-` character before a Makefile command will enable the Makefile to proceed even if errors occur.
+  * Combining `Rscript` with [Makefiles](https://swcarpentry.github.io/make-novice/) allowed for processing comparmentalization.
+  * Adding a `-` character before a Makefile command will enable the Makefile to proceed even if errors occur.
 
 [2.](https://serverfault.com/questions/311593/keeping-a-linux-process-running-after-i-logout) The `screen` program will allow you to log out of your server while keeping your processing running.
 
