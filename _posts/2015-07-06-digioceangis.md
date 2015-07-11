@@ -14,3 +14,16 @@ Once your system level dependencies are set, you can use `rsync` to transfer dat
 
 I encourage people to try this solution if you find yourself running long computations on your local machine. If you sign up at Digital Ocean using my [referer link](https://www.digitalocean.com/?refcode=cf7a61ffdec0), you will recieve $10 in starter money. This is esentially a free trial!
 
+**Update**
+
+I learned several more details that really made my workflow possible:
+
+1. Using the `Rscript` program rather than direct use of RStudio was neccessary in order to prevent memory issues.
+..* Combining `Rscript` with [Makefiles](https://swcarpentry.github.io/make-novice/) allowed for processing comparmentalization.
+..* Adding a `-` character before a Makefile command will enable the Makefile to proceed even if errors occur.
+
+[2.](https://serverfault.com/questions/311593/keeping-a-linux-process-running-after-i-logout) The `screen` program will allow you to log out of your server while keeping your processing running.
+
+
+
+
