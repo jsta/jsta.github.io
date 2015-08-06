@@ -3,7 +3,7 @@ layout: post
 title: Convert electrical conductivity to salinity
 ---
 
-*I recently authored my first **R Shiny** app. What follows is a reproduction of the intro tab of the app which can be accessed "live" at: [https://jsta.shinyapps.io/cond2sal_shiny](https://jsta.shinyapps.io/cond2sal_shiny)*
+*I recently authored my first **R Shiny** app. What follows is a reproduction of the intro tab of the app which can be accessed "live" at: [https://jsta.shinyapps.io/cond2sal_shiny](https://jsta.shinyapps.io/cond2sal_shiny). The [source](http://www.github.com/jsta/cond2sal_shiny"," source) for this app is on github where you can [report issues and post feature requests](https://github.com/jsta/cond2sal_shiny/issues).*
 
 #What is Salinity?
 
@@ -26,5 +26,3 @@ Use the navigation links at [https://jsta.shinyapps.io/cond2sal_shiny](https://j
 [IOC, SCOR and IAPSO, 2010: The international thermodynamic equation of seawater – 2010: Calculation and use of thermodynamic properties. Intergovernmental Oceanographic Commission, Manuals and Guides No. 56, UNESCO (English), 196 pp](http://www.teos-10.org/pubs/TEOS-10_Manual.pdf)
 
 [Alan D. Jassby and James E. Cloern (2015). wq: Some tools for exploring water quality monitoring data. R package version 0.4.4. See the wq::ec2pss function.](http://cran.r-project.org/package=wq)
-
-The [source](http://www.github.com/jsta/cond2sal_shiny"," source) for this app is on github where you can [report issues and post feature requests](https://github.com/jsta/cond2sal_shiny/issues).
