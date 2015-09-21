@@ -13,51 +13,49 @@ First we need to acquire some Landsat data. I found [this](http://earthobservato
 
 In this case we have downloaded our compressed achive to the `/home` folder. Landsat 7 data archives have the following file/folder structure and for the purposes of creating true color images we are only concerned with bands 1-3. One important thing to note is the presence of a **gap_mask** folder. The tif files within the **gap_mask** archives contain the missing data from the top level band files.
 
-```
-LE70150432010.tar.gz
-│   LE70150432010_B1.TIF
-│   LE70150432010_B2.TIF
-│   LE70150432010_B3.TIF
-│
-└───gap_mask
-    ├───LE70150432010_GM_B1.TIF.gz
-    │   │   LE70150432010_GM_B1.TIF
-    ├───LE70150432010_GM_B2.TIF.gz
-    │   │   LE70150432010_GM_B2.TIF
-    ├───LE70150432010_GM_B3.TIF.gz
-    │   │   LE70150432010_GM_B3.TIF
+        LE70150432010.tar.gz
+        │   LE70150432010_B1.TIF
+        │   LE70150432010_B2.TIF
+        │   LE70150432010_B3.TIF
+        │
+        └───gap_mask
+            ├───LE70150432010_GM_B1.TIF.gz
+            │   │   LE70150432010_GM_B1.TIF
+            ├───LE70150432010_GM_B2.TIF.gz
+            │   │   LE70150432010_GM_B2.TIF
+            ├───LE70150432010_GM_B3.TIF.gz
+            │   │   LE70150432010_GM_B3.TIF
     
-```
+
 
 The following `R` code chunk loops through each band/mask combination and uses the `gdal_fillnodata.py` script (ships with `gdal` by default) to replace missing data in each band with the corresponding data in the mask file. Next, the resulting rasters are cropped according to a custom defined extent. Finally, the bands are combined and plotted using the `plotRGB` function.
 
 Before running this workflow on your own landsat 7 data ensure that you have `gdal` installed and available to the `base::system` command. You can check this by running `gdal-config --version` from the command line. Also make sure that you have the `rgdal` and `raster` packages installed.
 
-```
-untar(paste0("~/LE70260412007180EDC00.tar.gz"), exdir = "landsat")
-
-tifs <- list.files("landsat", pattern = "*.TIF$",
-  include.dirs = TRUE, full.names = TRUE)[1:3]
-ctifs<-paste0(unlist(strsplit(tifs,".TIF")), "_f", ".TIF")
-masks <- list.files("landsat/gap_mask", include.dirs = TRUE, full.names = TRUE)[1:3]
-
-library(raster)
-library(rgdal)
+        untar(paste0("~/LE70260412007180EDC00.tar.gz"), exdir = "landsat")
         
-for(i in 1:length(tifs)){
-  system(paste("gdal_fillnodata.py -mask", paste0("/vsigzip/", masks[i]), "-of GTiff", tifs[i], ctifs[i]))
-  }
+        tifs <- list.files("landsat", pattern = "*.TIF$",
+          include.dirs = TRUE, full.names = TRUE)[1:3]
+        ctifs<-paste0(unlist(strsplit(tifs,".TIF")), "_f", ".TIF")
+        masks <- list.files("landsat/gap_mask", include.dirs = TRUE, full.names = TRUE)[1:3]
         
-rstack <- raster::stack(ctifs)
+        library(raster)
+        library(rgdal)
+                
+        for(i in 1:length(tifs)){
+          system(paste("gdal_fillnodata.py -mask", paste0("/vsigzip/", masks[i]), "-of GTiff", tifs[i], ctifs[i]))
+          }
+                
+        rstack <- raster::stack(ctifs)
+                
+        #raster::drawExtent()
+        extent <- raster::extent(625508, 673853, 3072252, 3096110)
+        rstack <- raster::crop(rstack, extent)
+                  
+        raster::plotRGB(rstack,r=3,g=2,b=1)
+        rect(extent[1], extent[3], extent[2], extent[4], lwd = 1.5)
         
-#raster::drawExtent()
-extent <- raster::extent(625508, 673853, 3072252, 3096110)
-rstack <- raster::crop(rstack, extent)
-          
-raster::plotRGB(rstack,r=3,g=2,b=1)
-rect(extent[1], extent[3], extent[2], extent[4], lwd = 1.5)
+        #file.remove(list.files("landsat", include.dirs = TRUE, full.names = TRUE,
+          recursive = TRUE))
 
-#file.remove(list.files("landsat", include.dirs = TRUE, full.names = TRUE,
-  recursive = TRUE))
-```
 ![landsat](/public/images/landsat.png)  
