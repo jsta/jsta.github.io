@@ -5,6 +5,8 @@ title: Compose true color Landsat 7 images using R
 
 If you are familiar with Landsat 7 (1999 - 2013), you know that there was [failure](http://landsat.usgs.gov/products_slcoffbackground.php) with the Scan Line Corrector instrument early in the mission deployment. The end result is that a sizable portion (~22 %) of each "scene" has been lost. People interested in creating true color images without these missing data gaps might find themselves at the USGS page describing how to [fill gaps for display](http://landsat.usgs.gov/filling_the_gaps_for_display.php).
 
+![landsat](/public/images/landsat_miss.png)  
+
 However, after reading the page you might think that the only solutions for gap-filling involve using very expensive proprietary software (ERDAS, Photoshop) or paying for corrected imagery from a _Landsat business partner_. Not having access to these software programs, I unsuccessfully attempted to use the _Dust-and-Scratches_ solution albeit with open-source imaging programs. After quite a bit of struggling I discoved an easy alternative which I will now share. 
 
 First we need to acquire some Landsat data. I found [this](http://earthobservatory.nasa.gov/blogs/elegantfigures/2013/05/31/a-quick-guide-to-earth-explorer-for-landsat-8/) guide by Robert Simmon to be an excellent introduction to the topic. (On a side-note, the [`landsat-util`](http://landsat-util.readthedocs.org/en/latest/index.html) program looks excellent. It is too bad it only provides access to Landsat 8 data.) 
@@ -53,6 +55,7 @@ extent <- raster::extent(625508, 673853, 3072252, 3096110)
 rstack <- raster::crop(rstack, extent)
           
 raster::plotRGB(rstack,r=3,g=2,b=1)
+rect(extent[1], extent[3], extent[2], extent[4], lwd = 1.5)
 
 #file.remove(list.files("landsat", include.dirs = TRUE, full.names = TRUE,
   recursive = TRUE))
