@@ -42,11 +42,11 @@ May 2008
 
 May 2012 - Present 
   : Staff Scientist, South Florida Water Management District, West Palm Beach, FL
-  : - Member of a research team focused on ecological restoration of the Florida Everglades with a particular focus on a manipulative sea level rise field experiment. Developed software for curation and quantitative analysis of massive water quality datasets. Maintained GIS databases and produced sophisticated mapping outputs. 
+  : - Worked as a member of a research team focused on ecological restoration of the Florida Everglades with particular emphasis on the extent to which the Everglades watershed influences downstream estuaries. Responsible for translating ecological information and the results of water quality surveys for use in environmental management. Developed geospatial water quality models. Prepared reports and other materials for presentations to decision makers. Responsible for curating massive environmental databases and developing custom GIS visualization and anaylsis tools. 
 
 Sep 2008 – May 2012 
   : Marine Science Master’s Research, University of Texas Marine Science Institute, Port Aransas, TX
-  : - Researched the environmental and management controls on salt marsh vegetation by combining a synthesis of long term data with fine-scale porewater monitoring. Research products were used in a statewide review of water resources management plans.
+  : - Used multivariate statistics and time-series analyses to develop indicators of ecological condition for Texas estuaries. Research products were used in a statewide review of water resources management plans. Deployed a variety of novel water quality sensors to investigate surfacewater - groundwater exchange.
 
 ##Research Products and Presentations
 
