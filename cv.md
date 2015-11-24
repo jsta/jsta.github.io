@@ -65,7 +65,10 @@ Other Publications
   : - Stachelek J., S. Hall. 2008.  Intertidal Flora of Acadia National Park. National Park Service/University of Maine. [link](http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf)
   : - PBS Newshour. 2015. Florida's Everglades face new invasive threat: rising sea levels. [youtube](https://www.youtube.com/watch?v=ggOl-vaXIFk)
   
-##Qualifications and Activities
+##Other Activities
+ 
+NEON spatio-temporal hackathon 2015
+  : - developed tutorials and assessment instruments to teach fundamental big data skills needed to work efficiently with large spatio-temporal data using open tools, such as R and Python. [link](http://www.neoninc.org/updates-events/update/nsf-biocenters-unite-close-scientific-data-skills-gap-focus-phenology)
 
 Societies
   : Foundation for Open Access Statistics: 
