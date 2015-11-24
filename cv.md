@@ -6,7 +6,7 @@ cv: yes
 ---
 
 #Joseph Stachelek
-- updated: 27 Jun 2015
+- updated: 23 Nov 2015
 - [jsta.github.io](http://jsta.github.io)
 
 <div id="cv-nav">
@@ -51,7 +51,7 @@ Sep 2008 – May 2012
 ##Research Products and Presentations
 
 Peer Reviewed Articles
-  : - S.R. Park, Stachelek, J., Dunton, K.H. (submitted) Photosynthesis and drought resilience in three vascular plant species common to the western Gulf of Mexico. Estuaries and Coasts.
+   : - Stachelek, J. (_in review_) [Re] Least-cost modelling on irregular landscape graphs. ReScience. [pre-print](https://github.com/jsta/ReScience-submission/raw/STACHELEK/article/article.pdf)
   : - Stachelek J., Madden, C.J. 2015. Application of Inverse Path Distance Weighting for high density spatial mapping of coastal water quality patterns. International Journal of Geographical Information Science. [pdf](public/stachmadden2015am.pdf)
   : - Stachelek, J., Dunton K.H. 2013. Freshwater inflow requirements for the Nueces Delta, Texas: Spartina alterniflora as an indicator of ecosystem condition. Texas Water Journal. 4(2), 62-73. [pdf](public/StachelekDunton2013.pdf)
 
