@@ -6,7 +6,7 @@ cv: yes
 ---
 
 #Joseph Stachelek
-- updated: 26 Jan 2016
+- updated: 07 Mar 2016
 - [jsta.github.io](http://jsta.github.io)
 
 <div id="cv-nav">
@@ -55,7 +55,20 @@ cv: yes
 -----
   
 ### Teaching Experience
+
+#### Software Carpentry
+
+- Instructor (2016 - present)
+
+- Delivered workshops to teach basic lab skills for research computing
   
+#### NSF GK-12 Fellowship
+
+**University of Texas Marine Science Institute / Port Aransas HS**
+
+- AP Human Geography / GIS (Fall 2010 / Spring 2011) 
+- Developed GIS lesson material; delivered lessons; evaluated student work
+
 #### Teaching Assistant
 
 **University of Texas at Austin**
@@ -64,18 +77,12 @@ cv: yes
 
 - Taught lectures; delivered laboratory practicals; marked assignments and exams
 
-#### NSF GK-12 Fellowship
-
-**University of Texas Marine Science Institute / Port Aransas HS**
-
-- AP Human Geography / GIS (Fall 2010 / Spring 2011) 
-- Developed GIS lesson material; delivered lessons; evaluated student work
 
 -----
 
 ### Software Experience
 
-#### Software package development
+#### Software package development [(https://github.com/jsta)](https://github.com/jsta)
 
 **Author**
 
@@ -99,8 +106,10 @@ cv: yes
 
 ### Recent Publications
    
-   - Stachelek, J. (_in review_) [Re] Least-cost modelling on irregular landscape graphs. ReScience. [pre-print](https://github.com/jsta/ReScience-submission/raw/STACHELEK/article/article.pdf)
+   - Stachelek, J. (2016) [Re] Least-cost modelling on irregular landscape graphs. ReScience. 2(1), 1-4. [pdf](public/2016_stachelek_rescience.pdf)
+   
   - Stachelek J., Madden, C.J. 2015. Application of Inverse Path Distance Weighting for high density spatial mapping of coastal water quality patterns. International Journal of Geographical Information Science. [pdf](public/stachmadden2015am.pdf)
+  
   - Stachelek, J., Dunton K.H. 2013. Freshwater inflow requirements for the Nueces Delta, Texas: Spartina alterniflora as an indicator of ecosystem condition. Texas Water Journal. 4(2), 62-73. [pdf](public/StachelekDunton2013.pdf)
 
 -----
@@ -115,9 +124,10 @@ cv: yes
   
 ### Service Activity
   
-  - Reviewer, _Ecological Modelling_ (2015)
-
-- PBS Newshour. 2015. Florida's Everglades face new invasive threat: rising sea levels. [youtube](https://www.youtube.com/watch?v=ggOl-vaXIFk)
+  - Reviewer (2016) _Journal of Atmospheric and Oceanic Technology_
+  - Reviewer (2015) _Ecological Modelling_
+  
+- PBS Newshour (2015) Florida's Everglades face new invasive threat: rising sea levels. [youtube](https://www.youtube.com/watch?v=ggOl-vaXIFk)
   
 - NEON spatio-temporal hackathon (2015) - developed tutorials and assessment instruments to teach fundamental big data skills needed to work efficiently with large spatio-temporal data using open tools, such as R and Python. [link](http://www.neoninc.org/updates-events/update/nsf-biocenters-unite-close-scientific-data-skills-gap-focus-phenology)
 
