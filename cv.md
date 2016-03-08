@@ -6,16 +6,17 @@ cv: yes
 ---
 
 #Joseph Stachelek
+
 - updated: 07 Mar 2016
 - [jsta.github.io](http://jsta.github.io)
 
 <div id="cv-nav">
 
 - [Education](#education)
-- [Research](#research)
-- [Teaching](#teaching)
-- [Research Products](#research-products-and-presentations)
-- [Qualifications and Activities](#qualifications-and-activities)
+- [Research](#work experience)
+- [Teaching](#teaching experience)
+- [Research Products](#software experience)
+- [Service Activity](#service activity)
 
 </div>
 
@@ -36,6 +37,7 @@ cv: yes
 : Additional Courses and Training
 
 - Bayesian Inference and Hierachical Modeling, Fall 2013, Florida Atlantic University
+
 - Using R for High Performance Computing, Winter 2015, National Institute for Mathematical and Biological Synthesis
 
 
@@ -62,16 +64,12 @@ cv: yes
 
 - Delivered workshops to teach basic lab skills for research computing
   
-#### NSF GK-12 Fellowship
-
-**University of Texas Marine Science Institute / Port Aransas HS**
+#### NSF GK-12 Fellowship - University of Texas Marine Science Institute / Port Aransas HS
 
 - AP Human Geography / GIS (Fall 2010 / Spring 2011) 
 - Developed GIS lesson material; delivered lessons; evaluated student work
 
-#### Teaching Assistant
-
-**University of Texas at Austin**
+#### Teaching Assistant - University of Texas at Austin
 
 - Introduction to Oceanography (Fall 2009/Spring 2010)
 
@@ -106,7 +104,7 @@ cv: yes
 
 ### Recent Publications
    
-   - Stachelek, J. (2016) [Re] Least-cost modelling on irregular landscape graphs. ReScience. 2(1), 1-4. [pdf](public/2016_stachelek_rescience.pdf)
+   - Stachelek, J., 2016. [Re] Least-cost modelling on irregular landscape graphs. ReScience. 2(1), 1-4. [pdf](public/2016_stachelek_rescience.pdf)
    
   - Stachelek J., Madden, C.J. 2015. Application of Inverse Path Distance Weighting for high density spatial mapping of coastal water quality patterns. International Journal of Geographical Information Science. [pdf](public/stachmadden2015am.pdf)
   

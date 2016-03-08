@@ -2,7 +2,7 @@
 markdown:         kramdown
 kramdown:
   parse_block_html: true 
-highlighter:      pygments
+# highlighter:      pygments
 
 # Permalinks
 permalink:            date
