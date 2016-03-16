@@ -5,9 +5,9 @@ output: pdf_document
 cv: yes
 ---
 
-#Joseph Stachelek
+# Joseph Stachelek
 
-- updated: 07 Mar 2016
+- updated: 16 Mar 2016
 - [jsta.github.io](http://jsta.github.io)
 
 <div id="cv-nav">
@@ -53,28 +53,6 @@ cv: yes
 - Responsible for translating ecological information and the results of water quality surveys for use in environmental management. 
 - Developed geospatial water quality models. Prepared reports and other materials for presentations to decision makers. 
 - Responsible for curating massive environmental databases and developing custom GIS visualization and anaylsis tools. 
-
------
-  
-### Teaching Experience
-
-#### Software Carpentry
-
-- Instructor (2016 - present)
-
-- Delivered workshops to teach basic lab skills for research computing
-  
-#### NSF GK-12 Fellowship - University of Texas Marine Science Institute / Port Aransas HS
-
-- AP Human Geography / GIS (Fall 2010 / Spring 2011) 
-- Developed GIS lesson material; delivered lessons; evaluated student work
-
-#### Teaching Assistant - University of Texas at Austin
-
-- Introduction to Oceanography (Fall 2009/Spring 2010)
-
-- Taught lectures; delivered laboratory practicals; marked assignments and exams
-
 
 -----
 
@@ -128,4 +106,25 @@ cv: yes
 - PBS Newshour (2015) Florida's Everglades face new invasive threat: rising sea levels. [youtube](https://www.youtube.com/watch?v=ggOl-vaXIFk)
   
 - NEON spatio-temporal hackathon (2015) - developed tutorials and assessment instruments to teach fundamental big data skills needed to work efficiently with large spatio-temporal data using open tools, such as R and Python. [link](http://www.neoninc.org/updates-events/update/nsf-biocenters-unite-close-scientific-data-skills-gap-focus-phenology)
+
+-----
+
+### Teaching Experience
+
+#### Software Carpentry
+
+- Instructor (2016 - present)
+
+- Delivered workshops to teach basic lab skills for research computing
+  
+#### NSF GK-12 Fellowship - University of Texas Marine Science Institute / Port Aransas HS
+
+- AP Human Geography / GIS (Fall 2010 / Spring 2011) 
+- Developed GIS lesson material; delivered lessons; evaluated student work
+
+#### Teaching Assistant - University of Texas at Austin
+
+- Introduction to Oceanography (Fall 2009/Spring 2010)
+
+- Taught lectures; delivered laboratory practicals; marked assignments and exams
 
