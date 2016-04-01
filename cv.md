@@ -1,13 +1,12 @@
   ---
 title: "Curriculum Vitae"
 layout: page
-output: pdf_document
 cv: yes
 ---
 
 # Joseph Stachelek
 
-- updated: 16 Mar 2016
+- updated: 1 Apr 2016
 - [jsta.github.io](http://jsta.github.io)
 
 <div id="cv-nav">
