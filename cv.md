@@ -1,4 +1,4 @@
----
+  ---
 title: "Curriculum Vitae"
 layout: page
 output: pdf_document
@@ -81,6 +81,8 @@ cv: yes
 -----
 
 ### Recent Publications
+  
+   - Park, S.R., Stachelek, J., Dunton K.H., (_submitted_) Photosynthesis and drought resilience in three emergent vascular plant species common to marshes of the western Gulf of Mexico. Estuaries and Coasts.
    
    - Stachelek, J., 2016. [Re] Least-cost modelling on irregular landscape graphs. ReScience. 2(1), 1-4. [pdf](public/2016_stachelek_rescience.pdf)
    
