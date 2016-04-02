@@ -2,6 +2,7 @@
 title: "Curriculum Vitae"
 layout: page
 cv: yes
+output: html_document
 ---
 
 # Joseph Stachelek
