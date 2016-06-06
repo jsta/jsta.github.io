@@ -69,10 +69,10 @@ cv: yes
 
 #### Other software experience
 
-- Operating Systems: Windows, Debian/Ubuntu Linux
-- Office productivity software: Microsoft Office (Word, Excel and PowerPoint), Open Office, LaTeX
+- Operating Systems: Debian/Ubuntu/Fedora Linux, Windows
+- Office productivity software: Microsoft Office (Word, Excel and PowerPoint), LibreOffice, LaTeX
 - Statistical Software: R
-- Coding languages: R, Python, Matlab, C++, FORTRAN
+- Coding languages: R, Python, Matlab
 - Data management: SQLite, netcdf
 - Version control systems: Git, GitHub
 - Web development: `shiny`
@@ -99,10 +99,12 @@ cv: yes
 
 -----
   
-### Service Activity
+### Service and Outreach Activity
   
   - Reviewer (2016) _Journal of Atmospheric and Oceanic Technology_
   - Reviewer (2015) _Ecological Modelling_
+
+- National Public Radio (2016) Rising Seas Push Too Much Salt Into the Florida Everglades. [link](http://www.npr.org/2016/05/25/477014085/rising-seas-push-too-much-salt-into-the-florida-everglades)
   
 - PBS Newshour (2015) Florida's Everglades face new invasive threat: rising sea levels. [youtube](https://www.youtube.com/watch?v=ggOl-vaXIFk)
   
