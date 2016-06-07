@@ -6,7 +6,7 @@ cv: yes
 
 # Joseph Stachelek
 
-- updated: 1 Apr 2016
+- updated: 6 Jun 2016
 - [jsta.github.io](http://jsta.github.io)
 
 <div id="cv-nav">
@@ -15,11 +15,12 @@ cv: yes
 - [Research](#work experience)
 - [Teaching](#teaching experience)
 - [Research Products](#software experience)
-- [Service Activity](#service activity)
+- [Service and Outreach Activity](#Service and Outreach Activity)
 
 </div>
 
 ### Education
+  **PhD, Fisheries and Wildlife** (*anticipated* 2020) Michigan State University, East Lansing
   
   **MS, Marine Science** (2012) University of Texas, Austin
 
@@ -102,6 +103,7 @@ cv: yes
 ### Service and Outreach Activity
   
   - Reviewer (2016) _Journal of Atmospheric and Oceanic Technology_
+  
   - Reviewer (2015) _Ecological Modelling_
 
 - National Public Radio (2016) Rising Seas Push Too Much Salt Into the Florida Everglades. [link](http://www.npr.org/2016/05/25/477014085/rising-seas-push-too-much-salt-into-the-florida-everglades)
