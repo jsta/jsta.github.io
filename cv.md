@@ -6,21 +6,14 @@ cv: yes
 
 # Joseph Stachelek
 
-- updated: 6 Jun 2016
+- updated: 17 Jun 2016
 - [jsta.github.io](http://jsta.github.io)
-
-<div id="cv-nav">
-
-- [Education](#education)
-- [Research](#work experience)
-- [Teaching](#teaching experience)
-- [Research Products](#software experience)
-- [Service and Outreach Activity](#Service and Outreach Activity)
-
-</div>
 
 ### Education
   **PhD, Fisheries and Wildlife** (*anticipated* 2020) Michigan State University, East Lansing
+
+- Dissertation: "In progress"
+  - Supervisor: Dr. Pat Soranno
   
   **MS, Marine Science** (2012) University of Texas, Austin
 
@@ -45,9 +38,8 @@ cv: yes
   
 ### Work Experience
   
-#### Staff Scientist
-  
-  - South Florida Water Management District (May 2012 - present) 
+2012 - Present
+: Research Scientist, South Florida Water Management District
 
 - Member of a research team focused on ecological restoration of the Florida Everglades with particular emphasis on the extent to which the Everglades watershed influences downstream estuaries. 
 - Responsible for translating ecological information and the results of water quality surveys for use in environmental management. 
@@ -101,6 +93,8 @@ cv: yes
 -----
   
 ### Service and Outreach Activity
+  
+  - Reviewer (2016) _Journal of Open Source Software_
   
   - Reviewer (2016) _Journal of Atmospheric and Oceanic Technology_
   
