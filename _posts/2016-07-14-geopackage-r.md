@@ -35,9 +35,11 @@ cities <- readOGR(system.file("vectors", package = "rgdal")[1], "cities")
 class(cities)
 ```
 
+```
 > [1] "SpatialPointsDataFrame"    
 > attr(,"package")    
 > [1] "sp"
+```
 
 Now lets write the data to disk using the GeoPackage format:
 
@@ -53,6 +55,8 @@ This file can then be read back into R:
 cities_gpkg <- readOGR("cities.gpkg", "cities")
 identical(cities, cities_gpkg)
 ```
+```
 > [1] TRUE
+```
 
 The file can also be opened in your standalone GIS program of choice such as GRASS, QGIS, or even ArcGIS.
