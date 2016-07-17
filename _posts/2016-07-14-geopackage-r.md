@@ -60,3 +60,49 @@ identical(cities, cities_gpkg)
 ```
 
 The file can also be opened in your standalone GIS program of choice such as GRASS, QGIS, or even ArcGIS.
+
+Sometimes you may want to directly access the metadata for your spatial data without loading the object geometry. Because GeoPackage files are formatted as SQLite databases you can use the existing `R` tools for SQLite files. One option is to use the slick `dplyr` interface to RSQLite files:
+
+```r
+library(dplyr)
+cities_sqlite <- tbl(src_sqlite("cities.gpkg"), "cities")
+print(cities_sqlite, n = 5)
+```
+
+```
+> Source: sqlite 3.8.6 [cities.gpkg]
+> From: cities [606 x 6]
+
+>    fid      geom             NAME COUNTRY POPULATION CAPITAL
+>   (int)     (chr)            (chr)   (chr)      (dbl)   (chr)
+> 1      1 <raw[29]>         Murmansk  Russia     468000       N
+> 2      2 <raw[29]>      Arkhangelsk  Russia     416000       N
+> 3      3 <raw[29]> Saint Petersburg  Russia    5825000       N
+> 4      4 <raw[29]>          Magadan  Russia     152000       N
+> 5      5 <raw[29]>            Perm'  Russia    1160000       N
+> ..   ...       ...              ...     ...        ...     ...
+```
+
+Another option is to use the more primitive `RSQLite` interface:
+
+```r
+library(RSQLite)
+con <- dbConnect(RSQLite::SQLite(), dbname = "cities.gpkg")
+dbListTables(con)
+
+cities_rsqlite <- dbGetQuery(con, 'select * from cities')
+head(cities_rsqlite[, -which(names(cities_rsqlite) == "geom")])
+dbGetQuery(con, 'select * from gpkg_spatial_ref_sys')[3,"description"]
+```
+
+```
+> fid             NAME COUNTRY POPULATION CAPITAL
+> 1   1         Murmansk  Russia     468000       N
+> 2   2      Arkhangelsk  Russia     416000       N
+> 3   3 Saint Petersburg  Russia    5825000       N
+> 4   4          Magadan  Russia     152000       N
+> 5   5            Perm'  Russia    1160000       N
+> 6   6    Yekaterinburg  Russia    1620000       N
+
+> [1] "longitude/latitude coordinates in decimal degrees on the WGS 84 spheroid"
+```
