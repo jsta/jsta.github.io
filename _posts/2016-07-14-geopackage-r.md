@@ -61,7 +61,7 @@ identical(cities, cities_gpkg)
 
 The file can also be opened in your standalone GIS program of choice such as GRASS, QGIS, or even ArcGIS.
 
-Sometimes you may want to directly access the metadata for your spatial data without loading the object geometry. Because GeoPackage files are formatted as SQLite databases you can use the existing `R` tools for SQLite files. One option is to use the slick `dplyr` interface to RSQLite files:
+Sometimes you may want to directly access the metadata for your spatial data without loading the object geometry. Because GeoPackage files are formatted as SQLite databases you can use the existing `R` tools for SQLite files. One option is to use the slick `dplyr` interface:
 
 ```r
 library(dplyr)
