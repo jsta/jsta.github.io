@@ -10,9 +10,8 @@ cv: yes
 - [jsta.github.io](http://jsta.github.io)
 
 ### Education
-  **PhD, Fisheries and Wildlife** (*anticipated* 2020) Michigan State University, East Lansing
+  **PhD, Fisheries and Wildlife** (in progress) Michigan State University, East Lansing
 
-- Dissertation: "In progress"
   - Supervisor: Dr. Pat Soranno
   
   **MS, Marine Science** (2012) University of Texas, Austin
