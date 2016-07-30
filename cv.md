@@ -38,7 +38,7 @@ cv: yes
   
 ### Work Experience
   
-2012 - Present
+2012 - 2016
 : Research Scientist, South Florida Water Management District
 
 - Member of a research team focused on ecological restoration of the Florida Everglades with particular emphasis on the extent to which the Everglades watershed influences downstream estuaries. 
