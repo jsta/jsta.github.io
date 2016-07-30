@@ -7,7 +7,7 @@ cv: yes
 
 # Joseph Stachelek
 
-- updated: 17 Jun 2016
+- updated: 30 Jul 2016
 - [jsta.github.io](http://jsta.github.io)
 
 ### Education
@@ -49,7 +49,7 @@ cv: yes
 -----
 
 ### Software Experience
-
+  
 #### Software package development [(https://github.com/jsta)](https://github.com/jsta)
 
 **Author**
