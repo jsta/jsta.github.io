@@ -1,6 +1,7 @@
 ---
-title: Curriculum Vitae
+title: "Curriculum Vitae"
 layout: page
+output: pdf_document
 cv: yes
 ---
 
@@ -54,6 +55,8 @@ cv: yes
 **Author**
 
 - `ipdw`: Interpolation by Inverse Path Distance Weighting. [https://github.com/jsta/ipdw](https://github.com/jsta/ipdw)
+
+- `dbhydroR`: Everglades Hydrologic and Water Quality Data from R. [https://github.com/SFWMD/dbhydro](https://github.com/SFWMD/dbhydro)
 
 **Contributor**
 
@@ -113,7 +116,7 @@ cv: yes
 
 - Instructor (2016 - present)
 
-- Delivered workshops to teach basic lab skills for research computing
+- Delivered workshops (2) to teach basic lab skills for research computing
   
 #### NSF GK-12 Fellowship - University of Texas Marine Science Institute / Port Aransas HS
 
