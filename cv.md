@@ -7,7 +7,7 @@ cv: yes
 
 # Joseph Stachelek
 
-- updated: 30 Jul 2016
+- updated: 23 Aug 2016
 - [jsta.github.io](http://jsta.github.io)
 
 ### Education
@@ -29,9 +29,11 @@ cv: yes
 2012 - Present 
 : Additional Courses and Training
 
-- Bayesian Inference and Hierachical Modeling, Fall 2013, Florida Atlantic University
+- The Mgcv Package As a One-Stop-Shop for Fitting Non-Linear Ecological Models, Summer 2016, Ecological Society of America. Gavin Simpson, David Miller, Eric Pedersen.
 
-- Using R for High Performance Computing, Winter 2015, National Institute for Mathematical and Biological Synthesis
+- Using R for High Performance Computing, Winter 2015, National Institute for Mathematical and Biological Synthesis. Drew Schmidt.
+
+- Bayesian Inference and Hierachical Modeling, Fall 2013, Florida Atlantic University. Robert Dorazio.
 
 
 -----
