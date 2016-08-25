@@ -32,7 +32,7 @@
 #cv-nav ul {
   text-align:center;
   margin-top: 20px;
-  margin-botom: 25px;
+  margin-bottom: 25px;
 }
 body > div.content.container > div > ul {
   text-align:left;
@@ -46,9 +46,9 @@ ul {
   font-size: 14px;
   text-transform: none;
   width: 100%;
-  margin-left: 0px;
+  margin-left: 0;
   margin-bottom: 2px;
-  padding-left: 0px;
+  padding-left: 0;
 }
 li {
   margin-bottom: 2px;
@@ -83,7 +83,7 @@ dl > dd > ul{
     display: none;
   }
   
-  div.sidebar {
+  .sidebar {
     display: none;
   }
   
