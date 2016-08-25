@@ -11,23 +11,22 @@ cv: yes
 - [jsta.github.io](http://jsta.github.io)
 
 ## Education
-  **PhD, Fisheries and Wildlife** (in progress) Michigan State University, East Lansing
+###  **PhD, Fisheries and Wildlife** (in progress) Michigan State University, East Lansing
 
   - Supervisor: Dr. Pat Soranno
   
-  **MS, Marine Science** (2012) University of Texas, Austin
+###  **MS, Marine Science** (2012) University of Texas, Austin
 
 - Thesis: "Freshwater inflows in the Nueces Delta, TX : impacts on porewater salinity and estimation of needs." ([http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549](http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549))
 - Supervisor: Dr. Ken Dunton
 - Research: used multivariate statistics and time-series analyses to develop indicators of ecological condition for Texas estuaries. Research products were used in a statewide review of water resources management plans. Deployed a variety of novel water quality sensors to investigate surfacewater - groundwater exchange.
 
-  **BSc, Marine Science** (2008) University of Maine, Orono
+###  **BSc, Marine Science** (2008) University of Maine, Orono
 
 - Thesis: "Constructing a guide to the Intertidal Algae of Acadia National Park and testing DNA Barcoding" ([http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf](http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf))
 - Supervisor: Dr. Susan Brawley
 
-2012 - Present 
-: Additional Courses and Training
+### Additional Courses and Training
 
 - The Mgcv Package As a One-Stop-Shop for Fitting Non-Linear Ecological Models, Summer 2016, Ecological Society of America. Gavin Simpson, David Miller, Eric Pedersen.
 
@@ -145,5 +144,3 @@ cv: yes
   - Ecological Society of America
   
 - Foundation for Open Access Statistics
-
-- Gulf Estuarine Research Society
