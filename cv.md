@@ -10,7 +10,7 @@ cv: yes
 - updated: 23 Aug 2016
 - [jsta.github.io](http://jsta.github.io)
 
-### \LARGE Education
+## Education
   **PhD, Fisheries and Wildlife** (in progress) Michigan State University, East Lansing
 
   - Supervisor: Dr. Pat Soranno
@@ -38,7 +38,7 @@ cv: yes
 
 -----
   
-### \LARGE Work Experience
+## Work Experience
   
 2012 - 2016
 : Research Scientist, South Florida Water Management District
@@ -50,9 +50,9 @@ cv: yes
 
 -----
 
-### \LARGE Software Experience
+## Software Experience
   
-#### Software package development [(https://github.com/jsta)](https://github.com/jsta)
+### Software package development [(https://github.com/jsta)](https://github.com/jsta)
 
 **Author**
 
@@ -64,7 +64,7 @@ cv: yes
 
 - `rnoaa`: 'NOAA' Weather Data from R. [https://github.com/ropensci/rnoaa](https://github.com/ropensci/rnoaa)
 
-#### Other software experience
+### Other software experience
 
 - Operating Systems: Debian/Ubuntu/Fedora Linux, Windows
 - Office productivity software: Microsoft Office (Word, Excel and PowerPoint), LibreOffice, LaTeX
@@ -76,7 +76,7 @@ cv: yes
 
 -----
 
-### \LARGE Publications
+## Publications
 
 ### Peer-Reviewed
 
@@ -96,21 +96,21 @@ cv: yes
 
 -----
 
-### \LARGE Teaching Experience
+## Teaching Experience
 
-#### Software Carpentry
+### Software Carpentry
 
 - Instructor (2016 - present)
 
 - Delivered workshops (2) to teach basic lab skills for research computing
   
-#### NSF GK-12 Fellowship - University of Texas Marine Science Institute / Port Aransas HS
+### NSF GK-12 Fellowship - University of Texas Marine Science Institute / Port Aransas HS
 
 - AP Human Geography / GIS (Fall 2010 / Spring 2011) 
 
 - Developed GIS lesson material; delivered lessons; evaluated student work
 
-#### Teaching Assistant - University of Texas at Austin
+### Teaching Assistant - University of Texas at Austin
 
 - Introduction to Oceanography (Fall 2009/Spring 2010)
 
@@ -118,7 +118,7 @@ cv: yes
 
 -----
   
-### \LARGE Service and Outreach Activity
+## Service and Outreach Activity
   
   - Reviewer (2016) _Journal of Open Source Software_
   
@@ -138,7 +138,7 @@ cv: yes
 -----
 
 
-### \LARGE Membership
+## Membership
   
   - Coastal and Estuarine Research Federation
   
