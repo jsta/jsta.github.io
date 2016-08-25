@@ -11,6 +11,7 @@ cv: yes
 - [jsta.github.io](http://jsta.github.io)
 
 ## Education
+
 ###  **PhD, Fisheries and Wildlife** (in progress) Michigan State University, East Lansing
 
   - Supervisor: Dr. Pat Soranno
