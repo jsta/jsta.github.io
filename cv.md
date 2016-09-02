@@ -58,7 +58,7 @@ cv: yes
 
 - `ipdw`: Interpolation by Inverse Path Distance Weighting. [https://github.com/jsta/ipdw](https://github.com/jsta/ipdw)
 
-- `dbhydroR`: Everglades Hydrologic and Water Quality Data from R. [https://github.com/SFWMD/dbhydro](https://github.com/SFWMD/dbhydro)
+- `dbhydroR`: Everglades Hydrologic and Water Quality Data from R. [https://github.com/SFWMD/dbhydroR](https://github.com/SFWMD/dbhydroR)
 
 **Contributor**
 
@@ -93,6 +93,31 @@ cv: yes
    - **Stachelek J.**, Madden, C.J., Kelly, S.P, Blaha, M. (_in-prep_). Fine-scale relationships between phytoplankton abundance and environmental drivers in Florida Bay, USA.
    
    - **Stachelek J.**, Kelly, S.P, Sklar, F., Coronado, C.M., Troxler, T., Bauman, L. (_in-prep_). A mesocosm design for simulating sea-level rise associated saltwater intrusion in coastal wetlands.
+
+-----
+
+## Presentations
+
+- **Stachelek, J.**, Madden, C.J., Kelly, S., Blaha, M. (2016). Fine-scale spatial patterning of phytoplankton abundance in a coastal estuary. Ecological Society of America Meeting, Fort Lauderdale, Florida, USA. [slides](https://figshare.com/articles/Ecological_Society_of_America/2775322)
+
+  - Troxler, T.G., Gaiser, E.E., Charles, S.P., Coronado, C., Davis, S., Fuentes, J., Kelly, S., Kominoski, J.S., Madden, C.J., Mazzei, V., Sklar, F.H. Sklar, Servais, S., **Stachelek, J.**, Wilson, B.J. (2016). Carbon cycle science in the Florida Coastal Everglades: Research to inform carbon and water management. Ecological Society of America Meeting, Fort Lauderdale, Florida, USA.
+  
+  - Sklar, F.H., Coronado, C., Troxler, T.G., **Stachelek, J.**, Kelly, S., Kominoski, J.S. (2016). Coastal subsidence as a function of salinity intrusion and peat decomposition in a karst environment. Ecological Society of America Meeting, Fort Lauderdale, Florida, USA.
+  
+  - **Stachelek, J.**, (2015) Resolving Fine-Scale Patterning and Restoration Outcomes in the Coastal Everglades. Greater Everglades Ecosystem Restoration Meeting, Coral Springs, Florida, USA. [slides](http://conference.ifas.ufl.edu/geer2015/Documents/Speaker%20Presentations/SESSION%2010/1400_Stachelek_Joseph.pdf)
+  
+  Kominoski, J., Servais, S., B.J. Wilson, V. Mazzei, E.E. Gaiser, T. Troxler, C. Coronado-Molina, S.E. Davis, S.P. Kelly, **J. Stachelek**, F.H. Sklar, C.J. Madden, and L. Bauman, (2015). Effects of increased water salinity and inundation on microbial processing of carbon and nutrients in oligohaline wetland soils. Ecological Society of America 100th Annual Meeting, Baltimore, Maryland, USA.
+  
+  Troxler, T., F.H. Sklar, S.E. Davis, E.E. Gaiser, S.P. Kelly, J. Kominoski, C.J. Madden, V. Mazzei, C. Coronado-Molina, D.T. Rudnick, S. Servais, **J. Stachelek**, and B.J. Wilson, (2015) The effects of projected sea-level rise on Everglades coastal ecosystems: Evaluating the potential for and mechanisms of peat collapse. Ecological Society of America 100th Annual Meeting, Baltimore, Maryland, USA. 
+  
+  Wilson, B., Troxler, T., Gaiser, E., Kominoski, J., Richards, J., Servais, S., **Stachelek, J.**, Kelly, S. Kelly, Sklar, F., Coronado-Molina, C., Madden, C., Davis, S.E., Mazzei, V., Schulte, N., Bauman, L., (2014) Ecosystem Productivity Responses to Saltwater Intrusion and P Loading As a Result of Future Sea Level Rise in the Coastal Everglades. American Geophysical Union Meeting, San Fransisco, California, USA.
+  
+  - **Stachelek J.**, Dunton, K.H. (2011). Estimation of freshwater inflow requirements for a semi-arid salt marsh using emergent plants as indicators of ecosystem condition. Oral Presentation at the Coastal and Esutarine Reserach Federation, Daytona Beach, Florida, USA.
+
+  - Park, S.R., **Stachelek J.**, Dunton, K.H. (2011). Seasonal variations in photosynthetic characteristics of three major emergent salt marsh plants in the Southwestern Gulf of Mexico. Oral Presentation at the Coastal and Esutarine Reserach Federation, Daytona Beach, Florida, USA.
+
+   - **Stachelek J.**, Dunton, K.H. (2011). Porewater salinity dynamics within emergent salt marsh vegetation. Oral Presentation at the Benthic Ecology Meeting, Mobile, Alabama, USA.
+
 
 -----
 
