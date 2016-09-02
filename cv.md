@@ -143,7 +143,7 @@ cv: yes
 
 -----
   
-## Service and Outreach Activity
+## Service Activity
   
   - Reviewer (2016) _Journal of Open Source Software_
   
@@ -151,15 +151,19 @@ cv: yes
   
   - Reviewer (2015) _Ecological Modelling_
   
-&nbsp;
+  - Lesson Mainainter, (2015 - present), [Geospatial Data Analysis with R](http://www.datacarpentry.org/lessons/). Data Carpentry. 
+  
+- NEON spatio-temporal hackathon (2015) - developed tutorials and assessment instruments to teach fundamental big data skills needed to work efficiently with large spatio-temporal data using open tools, such as R and Python. [link](http://www.neoninc.org/updates-events/update/nsf-biocenters-unite-close-scientific-data-skills-gap-focus-phenology)
+  
+  
+## Outreach Activity  
+
+- Everglades Day (2016) Guided tours of science activities at the Loxahatchee Impoundment Landscape Assessment. 17th Annual Everglades Day, Loxahatchee National Wildlife Refuge.
 
 - National Public Radio (2016) Rising Seas Push Too Much Salt Into the Florida Everglades. [link](http://www.npr.org/2016/05/25/477014085/rising-seas-push-too-much-salt-into-the-florida-everglades)
   
 - PBS Newshour (2015) Florida's Everglades face new invasive threat: rising sea levels. [youtube](https://www.youtube.com/watch?v=ggOl-vaXIFk)
   
-- NEON spatio-temporal hackathon (2015) - developed tutorials and assessment instruments to teach fundamental big data skills needed to work efficiently with large spatio-temporal data using open tools, such as R and Python. [link](http://www.neoninc.org/updates-events/update/nsf-biocenters-unite-close-scientific-data-skills-gap-focus-phenology)
-
-
 -----
 
 
