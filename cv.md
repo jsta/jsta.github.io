@@ -112,9 +112,9 @@ cv: yes
   
   Wilson, B., Troxler, T., Gaiser, E., Kominoski, J., Richards, J., Servais, S., **Stachelek, J.**, Kelly, S. Kelly, Sklar, F., Coronado-Molina, C., Madden, C., Davis, S.E., Mazzei, V., Schulte, N., Bauman, L., (2014) Ecosystem Productivity Responses to Saltwater Intrusion and P Loading As a Result of Future Sea Level Rise in the Coastal Everglades. American Geophysical Union Meeting, San Fransisco, California, USA.
   
-  Madden, C.J., McDonald, A.A., Koch-Rose, M., Glibert, P., Kelly, S.P., **Stachelek, J.**, (2013) Exploring Linkages Among Watershed-Estuary Processes in the Southern Everglades, Florida Bay Using Model Synthesis. Oral Presentation at the Coastal and Esutarine Reserach Federation, San Diego, California, USA.
-  
   **Stachelek, J.**, Madden, C.J. (2013) High Density Spatial Mapping of Water Quality Patterns Reveals Impacts of Freshwater Inputs in Florida Bay, USA. Poster Presentation at the Coastal and Esutarine Reserach Federation, San Diego, California, USA.
+  
+  Madden, C.J., McDonald, A.A., Koch-Rose, M., Glibert, P., Kelly, S.P., **Stachelek, J.**, (2013) Exploring Linkages Among Watershed-Estuary Processes in the Southern Everglades, Florida Bay Using Model Synthesis. Oral Presentation at the Coastal and Esutarine Reserach Federation, San Diego, California, USA.
   
   - **Stachelek J.**, Dunton, K.H. (2011). Estimation of freshwater inflow requirements for a semi-arid salt marsh using emergent plants as indicators of ecosystem condition. Oral Presentation at the Coastal and Esutarine Reserach Federation, Daytona Beach, Florida, USA.
 
