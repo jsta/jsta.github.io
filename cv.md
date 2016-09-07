@@ -1,14 +1,25 @@
 ---
-title: "Curriculum Vitae"
+title: " "
 layout: page
 output: pdf_document
+includes:
+in_header: \usepackage{hyperref}
 cv: yes
 ---
 
 # Joseph Stachelek
 
-- updated: 23 Aug 2016
-- [jsta.github.io](http://jsta.github.io)
+\vspace{-2em}
+\begin{center}\rule{\linewidth}{0.4pt}\end{center}
+
+
+## CONTACT INFORMATION
+\begin{tabular}{l r}
+PhD Student & E-mail: \url{stachel2@msu.edu}\\
+Department of Fisheries and Wildlife & WWW:   \url{http://jsta.github.io}\\
+Michigan State University
+East Lansing, MI, USA
+\end{tabular}
 
 ## Education
 
@@ -106,15 +117,15 @@ cv: yes
   
   - **Stachelek, J.**, (2015) Resolving Fine-Scale Patterning and Restoration Outcomes in the Coastal Everglades. Greater Everglades Ecosystem Restoration Meeting, Coral Springs, Florida, USA. [slides](http://conference.ifas.ufl.edu/geer2015/Documents/Speaker%20Presentations/SESSION%2010/1400_Stachelek_Joseph.pdf)
   
-  Kominoski, J., Servais, S., B.J. Wilson, V. Mazzei, E.E. Gaiser, T. Troxler, C. Coronado-Molina, S.E. Davis, S.P. Kelly, **J. Stachelek**, F.H. Sklar, C.J. Madden, and L. Bauman, (2015). Effects of increased water salinity and inundation on microbial processing of carbon and nutrients in oligohaline wetland soils. Ecological Society of America 100th Annual Meeting, Baltimore, Maryland, USA.
+  - Kominoski, J., Servais, S., B.J. Wilson, V. Mazzei, E.E. Gaiser, T. Troxler, C. Coronado-Molina, S.E. Davis, S.P. Kelly, **J. Stachelek**, F.H. Sklar, C.J. Madden, and L. Bauman, (2015). Effects of increased water salinity and inundation on microbial processing of carbon and nutrients in oligohaline wetland soils. Ecological Society of America 100th Annual Meeting, Baltimore, Maryland, USA.
   
-  Troxler, T., F.H. Sklar, S.E. Davis, E.E. Gaiser, S.P. Kelly, J. Kominoski, C.J. Madden, V. Mazzei, C. Coronado-Molina, D.T. Rudnick, S. Servais, **J. Stachelek**, and B.J. Wilson, (2015) The effects of projected sea-level rise on Everglades coastal ecosystems: Evaluating the potential for and mechanisms of peat collapse. Ecological Society of America 100th Annual Meeting, Baltimore, Maryland, USA. 
+  - Troxler, T., F.H. Sklar, S.E. Davis, E.E. Gaiser, S.P. Kelly, J. Kominoski, C.J. Madden, V. Mazzei, C. Coronado-Molina, D.T. Rudnick, S. Servais, **J. Stachelek**, and B.J. Wilson, (2015) The effects of projected sea-level rise on Everglades coastal ecosystems: Evaluating the potential for and mechanisms of peat collapse. Ecological Society of America 100th Annual Meeting, Baltimore, Maryland, USA. 
   
-  Wilson, B., Troxler, T., Gaiser, E., Kominoski, J., Richards, J., Servais, S., **Stachelek, J.**, Kelly, S. Kelly, Sklar, F., Coronado-Molina, C., Madden, C., Davis, S.E., Mazzei, V., Schulte, N., Bauman, L., (2014) Ecosystem Productivity Responses to Saltwater Intrusion and P Loading As a Result of Future Sea Level Rise in the Coastal Everglades. American Geophysical Union Meeting, San Fransisco, California, USA.
+  - Wilson, B., Troxler, T., Gaiser, E., Kominoski, J., Richards, J., Servais, S., **Stachelek, J.**, Kelly, S. Kelly, Sklar, F., Coronado-Molina, C., Madden, C., Davis, S.E., Mazzei, V., Schulte, N., Bauman, L., (2014) Ecosystem Productivity Responses to Saltwater Intrusion and P Loading As a Result of Future Sea Level Rise in the Coastal Everglades. American Geophysical Union Meeting, San Fransisco, California, USA.
   
-  **Stachelek, J.**, Madden, C.J. (2013) High Density Spatial Mapping of Water Quality Patterns Reveals Impacts of Freshwater Inputs in Florida Bay, USA. Poster Presentation at the Coastal and Esutarine Reserach Federation, San Diego, California, USA.
+  - **Stachelek, J.**, Madden, C.J. (2013) High Density Spatial Mapping of Water Quality Patterns Reveals Impacts of Freshwater Inputs in Florida Bay, USA. Poster Presentation at the Coastal and Esutarine Reserach Federation, San Diego, California, USA.
   
-  Madden, C.J., McDonald, A.A., Koch-Rose, M., Glibert, P., Kelly, S.P., **Stachelek, J.**, (2013) Exploring Linkages Among Watershed-Estuary Processes in the Southern Everglades, Florida Bay Using Model Synthesis. Oral Presentation at the Coastal and Esutarine Reserach Federation, San Diego, California, USA.
+  - Madden, C.J., McDonald, A.A., Koch-Rose, M., Glibert, P., Kelly, S.P., **Stachelek, J.**, (2013) Exploring Linkages Among Watershed-Estuary Processes in the Southern Everglades, Florida Bay Using Model Synthesis. Oral Presentation at the Coastal and Esutarine Reserach Federation, San Diego, California, USA.
   
   - **Stachelek J.**, Dunton, K.H. (2011). Estimation of freshwater inflow requirements for a semi-arid salt marsh using emergent plants as indicators of ecosystem condition. Oral Presentation at the Coastal and Esutarine Reserach Federation, Daytona Beach, Florida, USA.
 
