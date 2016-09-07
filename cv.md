@@ -3,23 +3,14 @@ title: " "
 layout: page
 output: pdf_document
 includes:
-in_header: \usepackage{hyperref}
+in_header: fullrule.tex
+in_body: \usepackage{hyperref}
 cv: yes
 ---
 
 # Joseph Stachelek
 
-\vspace{-2em}
-\begin{center}\rule{\linewidth}{0.4pt}\end{center}
-
-
-## CONTACT INFORMATION
-\begin{tabular}{l r}
-PhD Student & E-mail: \url{stachel2@msu.edu}\\
-Department of Fisheries and Wildlife & WWW:   \url{http://jsta.github.io}\\
-Michigan State University
-East Lansing, MI, USA
-\end{tabular}
+---
 
 ## Education
 
