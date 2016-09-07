@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Curriculum Vitae"
 layout: page
 output: pdf_document
 includes:
