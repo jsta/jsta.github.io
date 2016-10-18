@@ -5,11 +5,11 @@ title: Convert electrical conductivity to salinity
 
 *I recently authored my first **R Shiny** app. What follows is a reproduction of the intro tab of the app which can be accessed "live" at: [https://jsta.shinyapps.io/cond2sal_shiny](https://jsta.shinyapps.io/cond2sal_shiny). The [source](http://www.github.com/jsta/cond2sal_shiny"," source) for this app is on github where you can [report issues and post feature requests](https://github.com/jsta/cond2sal_shiny/issues).*
 
-#What is Salinity?
+# What is Salinity?
 
 Salinity is a numeric measure of water saltiness. Standard oceanic seawater is about 35. The salinty of natural waters can vary from 0 in freshwater lakes, river, and streams to upwards of 50 in hypersaline brine pools.
 
-#Calculation from Conductivity
+# Calculation from Conductivity
 
 Modern salinity measurements are generally calculated from direct measurement of electrical conductivity. These direct conductivity measurements are sometimes supplemented by other measurements such as temperature and pressure when high prescision is desired. High precision salinity measurements are important in many oceanographic applications such as density, mixing, and flow modelling.
 
@@ -21,7 +21,7 @@ Image credit: http://ian.umces.edu/imagelibrary/displayimage-1996.html
 
 Use the navigation links at [https://jsta.shinyapps.io/cond2sal_shiny](https://jsta.shinyapps.io/cond2sal_shiny) in order to convert your data.
 
-#References
+# References
 
 [IOC, SCOR and IAPSO, 2010: The international thermodynamic equation of seawater – 2010: Calculation and use of thermodynamic properties. Intergovernmental Oceanographic Commission, Manuals and Guides No. 56, UNESCO (English), 196 pp](http://www.teos-10.org/pubs/TEOS-10_Manual.pdf)
 
