@@ -3,7 +3,7 @@ layout: post
 title: Convert electrical conductivity to salinity
 ---
 
-*I recently authored my first **R Shiny** app. What follows is a reproduction of the intro tab of the app which can be accessed "live" at: [https://jsta.shinyapps.io/cond2sal_shiny](https://jsta.shinyapps.io/cond2sal_shiny). The [source](http://www.github.com/jsta/cond2sal_shiny"," source) for this app is on github where you can [report issues and post feature requests](https://github.com/jsta/cond2sal_shiny/issues).*
+*I recently authored my first **R Shiny** app. What follows is a reproduction of the intro tab of the app which can be accessed "live" at: [https://jsta.shinyapps.io/cond2sal_shiny](https://jsta.shinyapps.io/cond2sal_shiny). The [source](https://github.com/jsta/cond2sal_shiny/blob/master/helpers.R) for this app is on github where you can [report issues and post feature requests](https://github.com/jsta/cond2sal_shiny/issues).*
 
 # What is Salinity?
 
