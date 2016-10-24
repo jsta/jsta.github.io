@@ -34,6 +34,8 @@ logos:
     img:      public/images/GSIcon.jpg
   - site:     https://github.com/jsta
     img:      public/images/github-11-128.png
+  - site:     http://orcid.org/0000-0002-5924-2464
+    img:      public/images/orcid.png
 
 github:
   repo:           
