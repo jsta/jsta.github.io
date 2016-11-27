@@ -1,5 +1,8 @@
-Level pool routing
-================
+---
+title: "Reservoir Hydrograph Level Pool Routing"
+output: html_document
+layout: post
+---
 
 Level pool routing refers to one of the more straight-forward methods for calculating reservoir outflow given an input hydrograph (time vs inflow) along with information about basin discharge relative to elevation. Here the term *reservoir* is used in the technical engineering context and does not exclude the use of this method for natural lakes. I believe this method is applicable to any waterbody where you can assume a one-to-one relationship between discharge and elevation. Said another way, we assume that discharge does not have a hysteresis component and does not depend on the direction (rising vs falling limb) of the input hydrograph.
 
