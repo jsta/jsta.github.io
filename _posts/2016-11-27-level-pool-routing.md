@@ -24,9 +24,9 @@ Then for each time-step we:
 
 -   Calculate change-in-storage-with-time as a function of outflow during the previous time-step.
 
--   Using our fitted relationship to calculate outflows for the current time-step as a function of reservoir change-in-storage.
+-   Use our fitted relationship to calculate outflows for the current time-step as a function of reservoir change-in-storage.
 
--   Subtracting these outflows from the running reservoir storage term.
+-   Subtract these outflows from the running reservoir storage term.
 
 ``` r
 #' level_pool_routing
@@ -47,7 +47,7 @@ level_pool_routing <- function(lt, qh, area, delta_t,
   
   lagpad <- function(x, k) {
     c(rep(NA, k), x)[1 : length(x)] 
-}
+  }
   
   lt$ii <- apply(cbind(lagpad(lt$inflow, 1), lt$inflow), 1, sum)
 
