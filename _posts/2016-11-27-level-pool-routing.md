@@ -31,18 +31,19 @@ Then for each time-step we:
 ``` r
 #' level_pool_routing
 #' @param lt data.frame with time and inflow columns
-#' @param qh data.frame with elevation and discharge columns. Storage column
-#' optional.
+#' @param qh data.frame with elevation and discharge columns.
+#'  Storage column optional.
 #' @param area numeric reservoir area
 #' @param delta_t numeric time step interval in seconds.
 #' @param initial_outflow numeric
 #' @param initial_storage numeric
-#' @param linear.fit logical operator specifying a linear relationship between
-#' outflow and reservoir-change-in-storage
+#' @param linear.fit logical operator specifying a linear
+#'  relationship between outflow and reservoir-change-in-storage
 #' @importFrom mgcv gam
 
-level_pool_routing <- function(lt, qh, area, delta_t, initial_outflow,
-                               initial_storage, linear.fit){
+level_pool_routing <- function(lt, qh, area, delta_t,
+                        initial_outflow, initial_storage,
+                        linear.fit){
   
   lagpad <- function(x, k) {
     c(rep(NA, k), x)[1 : length(x)] 
@@ -53,13 +54,15 @@ level_pool_routing <- function(lt, qh, area, delta_t, initial_outflow,
   if(is.null(qh$storage)){
     qh$storage <- area * qh$elevation
   }
-  qh$stq     <- ((2 * qh$storage) / (delta_t)) + qh$discharge
+  
+  qh$stq       <- ((2 * qh$storage) / (delta_t)) + qh$discharge
   
   lt$sjtminq   <- NA
   lt$sj1tplusq <- NA
   lt$outflow   <- NA
   lt[1, c("sj1tplusq")] <- c(NA)
-  lt[1, c("sjtminq")] <- ((2 * initial_storage) / delta_t) - initial_outflow
+  lt[1, c("sjtminq")] <- ((2 * initial_storage) / delta_t) -
+                          initial_outflow
   
   lt[1, "outflow"] <- initial_outflow
   
@@ -75,8 +78,10 @@ level_pool_routing <- function(lt, qh, area, delta_t, initial_outflow,
   
   for(i in seq_len(nrow(lt))[-1]){
     lt[i, "sj1tplusq"] <- lt[i-1, "sjtminq"] + lt[i, "ii"]
-    lt[i, "outflow"]   <- predict(fit, data.frame(stq = lt[i, "sj1tplusq"]))
-    lt[i, "sjtminq"]   <- lt[i, "sj1tplusq"] - (lt[i, "outflow"] * 2)
+    lt[i, "outflow"]   <- predict(fit,
+                            data.frame(stq = lt[i, "sj1tplusq"]))
+    lt[i, "sjtminq"]   <- lt[i, "sj1tplusq"] -
+                            (lt[i, "outflow"] * 2)
   }
 
   lt
