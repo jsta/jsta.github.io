@@ -1,41 +1,31 @@
----
-title: "Level pool routing"
-output: github_document
-layout: post
----
+Level pool routing
+================
 
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "../public/images/"
-)
-```
-
-Level pool routing refers to one of the more straight-forward methods for calculating reservoir outflow given an input hydrograph (time vs inflow) along with information about basin discharge relative to elevation. Here the term _reservoir_ is used in the technical engineering context and does not exclude the use of this method for natural lakes. I believe this method is applicable to any waterbody where you can assume a one-to-one relationship between discharge and elevation. Said another way, we assume that discharge does not have a hysteresis component and does not depend on the direction (rising vs falling limb) of the input hydrograph.
+Level pool routing refers to one of the more straight-forward methods for calculating reservoir outflow given an input hydrograph (time vs inflow) along with information about basin discharge relative to elevation. Here the term *reservoir* is used in the technical engineering context and does not exclude the use of this method for natural lakes. I believe this method is applicable to any waterbody where you can assume a one-to-one relationship between discharge and elevation. Said another way, we assume that discharge does not have a hysteresis component and does not depend on the direction (rising vs falling limb) of the input hydrograph.
 
 For more a more rigorous mathematical treatment of this method see [here](http://www.engr.colostate.edu/~ramirez/ce_old/classes/cive322-Ramirez/CE322_Web/Example_LevelPoolRouting.htm), [here](https://www.caee.utexas.edu/prof/maidment/CE374KSpr12/Docs/Hmwk5Soln.pdf), and [here](https://www.caee.utexas.edu/prof/maidment/CE374KSpr13/Visual/HydrologicRouting.pptx). The following demonstration will lay out the computational details and describe code to implement the method on three test datasets from the above links.
 
-## Computation
+Computation
+-----------
 
 The level pool routing computation procedure involves:
 
-* Determining the volume of the reservoir at a range of depths (if not known ahead-of-time) given its area.
+-   Determining the volume of the reservoir at a range of depths (if not known ahead-of-time) given its area.
 
-* Developing a relationship between outflow and reservoir-change-in-storage.
-  * The reference examples use the classical approach of linear interpolation. Here I use non-linear generalized additive modelling to more flexibly represent the shape of this relationship.
+-   Developing a relationship between outflow and reservoir-change-in-storage.
+-   The reference examples use the classical approach of linear interpolation. Here I use non-linear generalized additive modelling to more flexibly represent the shape of this relationship.
 
 Then for each time-step we:
 
-* Calculate the sum of inflows for the current and previous time-steps.
+-   Calculate the sum of inflows for the current and previous time-steps.
 
-* Calculate change-in-storage-with-time as a function of outflow during the previous time-step.
+-   Calculate change-in-storage-with-time as a function of outflow during the previous time-step.
 
-* Using our fitted relationship to calculate outflows for the current time-step as a function of reservoir change-in-storage.
+-   Using our fitted relationship to calculate outflows for the current time-step as a function of reservoir change-in-storage.
 
-* Subtracting these outflows from the running reservoir storage term.
+-   Subtracting these outflows from the running reservoir storage term.
 
-```{r functions}
+``` r
 #' level_pool_routing
 #' @param lt data.frame with time and inflow columns
 #' @param qh data.frame with elevation and discharge columns. Storage column
@@ -88,16 +78,16 @@ level_pool_routing <- function(lt, qh, area, delta_t, initial_outflow,
 
   lt
 }
-
 ```
 
+Example 1
+---------
 
-## Example 1
 ### Linear relationship between discharge and change-in-storage
 
-The data for this example comes from this [level-pool routing walkthrough](http://www.engr.colostate.edu/~ramirez/ce_old/classes/cive322-Ramirez/CE322_Web/Example_LevelPoolRouting.htm). We are given an inflow hydrograph in 6 hour increments so we will specify a `delta_t` timestep of `6 * 3600` seconds. The problem statement specifies an intial storage of 0 and an initial outflow of 20. There is no need to specify reservoir area because  we are given storage as a function of discharge.
+The data for this example comes from this [level-pool routing walkthrough](http://www.engr.colostate.edu/~ramirez/ce_old/classes/cive322-Ramirez/CE322_Web/Example_LevelPoolRouting.htm). We are given an inflow hydrograph in 6 hour increments so we will specify a `delta_t` timestep of `6 * 3600` seconds. The problem statement specifies an intial storage of 0 and an initial outflow of 20. There is no need to specify reservoir area because we are given storage as a function of discharge.
 
-```{r linear outflow-storage data}
+``` r
 input_hydro     <- data.frame(
                     time = seq(0, 162, by = 6),
                     inflow = c(0, 50, 130, 250, 350, 540, 735, 1215, 1800,
@@ -111,7 +101,7 @@ reservoir_char <- data.frame(
 reservoir_char$storage <- reservoir_char$storage * 1000000
 ```
 
-```{r linear outflow-storage calculation}
+``` r
 delta_t <- 6 * 3600
 
 res_linear <- level_pool_routing(input_hydro, reservoir_char, area = NA,
@@ -119,7 +109,9 @@ res_linear <- level_pool_routing(input_hydro, reservoir_char, area = NA,
                 linear.fit = FALSE)
 ```
 
-```{r linear outflow-storage final plotting}
+![](../public/images/linear%20outflow-storage%20calculation-1.png)
+
+``` r
 plot(res_linear$time, res_linear$inflow,
      xlab = "Time (s)", ylab = "Flow (m3/s)")
 lines(res_linear$time, res_linear$outflow)
@@ -127,12 +119,16 @@ legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
        pch = c(21, NA))
 ```
 
-## Example 2
+![](../public/images/linear%20outflow-storage%20final%20plotting-1.png)
+
+Example 2
+---------
+
 ### Curvilinear relationship between discharge and change-in-storage
 
 The data for this example comes from this [level-pool routing walkthrough pdf](https://www.caee.utexas.edu/prof/maidment/CE374KSpr12/Docs/Hmwk5Soln.pdf). I scraped the data tables from the pdf using the [pdftools package](https://github.com/ropensci/pdftools). We are given storage as a function of discharge so we have no need for information on the area of the reservoir. Also, we are given an inflow hydrograph in 2 hour increments so we will specify a `delta_t` timestep of `2 * 3600` seconds. Unlike the previous example, our reservoir has a non-zero initial storage.
 
-```{r scrape pdf data}
+``` r
 library(pdftools)
 txt  <- strsplit(pdf_text(
   "https://www.caee.utexas.edu/prof/maidment/CE374KSpr12/Docs/Hmwk5Soln.pdf"),
@@ -159,28 +155,33 @@ tbl1 <- suppressWarnings(rbind(
 tbl2 <- suppressWarnings(
           parse_table(txt[9:10], tbl_names = c("storage", "discharge")))
 tbl2$storage <- tbl2$storage * 1000000
-
 ```
 
-```{r curvilinear routing}
+``` r
 res_curv <- level_pool_routing(lt = tbl1, qh = tbl2, area = NA, delta_t = 7200,
               initial_outflow = 57, initial_storage = 75000000,
               linear.fit = FALSE)
 ```
 
-```{r curvilinear plotting}
+![](../public/images/curvilinear%20routing-1.png)
+
+``` r
 plot(res_curv$time, res_curv$inflow, xlab = "Time (s)", ylab = "Flow (m3/s)")
 lines(res_curv$time, res_curv$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
        pch = c(21, NA))
 ```
 
-## Example 3
+![](../public/images/curvilinear%20plotting-1.png)
+
+Example 3
+---------
+
 ### Oscillating relationship between discharge and change-in-storage
 
 The data for this example comes from this [level-pool routing walkthrough ppt](https://www.caee.utexas.edu/prof/maidment/CE374KSpr13/Visual/HydrologicRouting.pptx). Here we are given discharge as a function of reservoir elevation but we are not given the corresponding storage. As a result, we must specify a reservoir area. We are given an inflow hydrograph in 10 minute increments so we will specify a `delta_t` timestep of `10 * 60` seconds. In this case, our reservoir a zero initial storage and initial outflow.
 
-```{r }
+``` r
 lt <- data.frame(time = seq(0, 210, by = 10),
                  inflow = c(seq(0, 360, by = 60), seq(320, 0, by = -40), rep(0, 6)))
 
@@ -189,12 +190,19 @@ qh <- data.frame(elevation = seq(0, 10, by = 0.5),
                                173, 190, 205, 218, 231, 242, 253, 264, 275))
 ```
 
-```{r osc plotting}
+``` r
 res_osc <- level_pool_routing(lt, qh, area = 43560, delta_t = 600,
             initial_outflow = 0, initial_storage = 0, linear.fit = FALSE)
+```
+
+![](../public/images/osc%20plotting-1.png)
+
+``` r
 
 plot(res_osc$time, res_osc$inflow, xlab = "Time (s)", ylab = "Flow (cfs)")
 lines(res_osc$time, res_osc$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
        pch = c(21, NA))
 ```
+
+![](../public/images/osc%20plotting-2.png)
