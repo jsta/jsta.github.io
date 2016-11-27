@@ -1,5 +1,5 @@
 ---
-title: "Reservoir Hydrograph Level Pool Routing"
+title: "Level Pool Routing on Reservoir Hydrographs"
 output: html_document
 layout: post
 ---
@@ -16,7 +16,7 @@ The level pool routing computation procedure involves:
 -   Determining the volume of the reservoir at a range of depths (if not known ahead-of-time) given its area.
 
 -   Developing a relationship between outflow and reservoir-change-in-storage.
--   The reference examples use the classical approach of linear interpolation. Here I use non-linear generalized additive modelling to more flexibly represent the shape of this relationship.
+  -   The reference examples use the classical approach of linear interpolation. Here I use non-linear generalized additive modelling to more flexibly represent the shape of this relationship.
 
 Then for each time-step we:
 
@@ -93,23 +93,25 @@ The data for this example comes from this [level-pool routing walkthrough](http:
 ``` r
 input_hydro     <- data.frame(
                     time = seq(0, 162, by = 6),
-                    inflow = c(0, 50, 130, 250, 350, 540, 735, 1215, 1800,
-                           1400, 1050, 900, 740, 620, 510, 420, 320, 270, 200,
-                           150, 100, 72, 45, 25, 10, 0, 0, 0))
+                    inflow = c(0, 50, 130, 250, 350, 540, 735, 1215,
+                              1800, 1400, 1050, 900, 740, 620, 510,
+                              420, 320, 270, 200, 150, 100, 72, 45,
+                              25, 10, 0, 0, 0))
 reservoir_char <- data.frame(
                     elevation = c(130:134, 136:139),
-                    discharge = c(20, 34, 57, 96, 162, 463, 781, 1318, 2226),
-                    storage = c(1, 1.69, 2.85, 4.8, 8.12,
-                           23.1, 39.1, 65.9, 111))
+                    discharge = c(20, 34, 57, 96, 162, 463, 781,
+                              1318, 2226),
+                    storage = c(1, 1.69, 2.85, 4.8, 8.12, 23.1,
+                              39.1, 65.9, 111))
 reservoir_char$storage <- reservoir_char$storage * 1000000
 ```
 
 ``` r
 delta_t <- 6 * 3600
 
-res_linear <- level_pool_routing(input_hydro, reservoir_char, area = NA,
-                delta_t = delta_t, initial_outflow = 20, initial_storage = 0,
-                linear.fit = FALSE)
+res_linear <- level_pool_routing(input_hydro, reservoir_char,
+                area = NA, delta_t = delta_t, initial_outflow = 20,
+                initial_storage = 0, linear.fit = FALSE)
 ```
 
 ![](../public/images/linear%20outflow-storage%20calculation-1.png)
@@ -134,17 +136,21 @@ The data for this example comes from this [level-pool routing walkthrough pdf](h
 ``` r
 library(pdftools)
 txt  <- strsplit(pdf_text(
-  "https://www.caee.utexas.edu/prof/maidment/CE374KSpr12/Docs/Hmwk5Soln.pdf"),
-  "\n")[[1]]
+  "https://www.caee.utexas.edu/prof/maidment/CE374KSpr12/Docs/Hmwk5Soln.pdf"), "\n")[[1]]
 
 parse_table <- function(tbl, tbl_names){
-  tbl <- lapply(tbl, function(x) read.table(text = x, stringsAsFactors = FALSE))
+  tbl <- lapply(tbl, function(x) read.table(text = x,
+            stringsAsFactors = FALSE))
   tbl <- lapply(tbl, function(x) gsub(",", "", x))
   
-  inds <- lapply(tbl, function(x) ifelse(max(grep(")", x)) == -Inf, 1, max(grep(")", x))))
-  inds <- lapply(seq_along(tbl), function(x) c(1, (inds[[x]] + 1):length(tbl[[x]])))
+  inds <- lapply(tbl,
+            function(x) ifelse(max(grep(")", x)) == -Inf,
+            1, max(grep(")", x))))
+  inds <- lapply(seq_along(tbl),
+            function(x) c(1, (inds[[x]] + 1):length(tbl[[x]])))
   
-  tbl <- lapply(seq_along(tbl), function(x) as.numeric(tbl[[x]][inds[[x]]]))
+  tbl <- lapply(seq_along(tbl),
+          function(x) as.numeric(tbl[[x]][inds[[x]]]))
   tbl <- data.frame(t(do.call("rbind", tbl)))
   tbl <- tbl[2:nrow(tbl),]
   names(tbl) <- tbl_names
@@ -161,18 +167,19 @@ tbl2$storage <- tbl2$storage * 1000000
 ```
 
 ``` r
-res_curv <- level_pool_routing(lt = tbl1, qh = tbl2, area = NA, delta_t = 7200,
-              initial_outflow = 57, initial_storage = 75000000,
-              linear.fit = FALSE)
+res_curv <- level_pool_routing(lt = tbl1, qh = tbl2, area = NA,
+              delta_t = 7200, initial_outflow = 57,
+              initial_storage = 75000000, linear.fit = FALSE)
 ```
 
 ![](../public/images/curvilinear%20routing-1.png)
 
 ``` r
-plot(res_curv$time, res_curv$inflow, xlab = "Time (s)", ylab = "Flow (m3/s)")
+plot(res_curv$time, res_curv$inflow, xlab = "Time (s)",
+  ylab = "Flow (m3/s)")
 lines(res_curv$time, res_curv$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
-       pch = c(21, NA))
+  pch = c(21, NA))
 ```
 
 ![](../public/images/curvilinear%20plotting-1.png)
@@ -186,26 +193,29 @@ The data for this example comes from this [level-pool routing walkthrough ppt](h
 
 ``` r
 lt <- data.frame(time = seq(0, 210, by = 10),
-                 inflow = c(seq(0, 360, by = 60), seq(320, 0, by = -40), rep(0, 6)))
+         inflow = c(seq(0, 360, by = 60), seq(320, 0, by = -40),
+         rep(0, 6)))
 
 qh <- data.frame(elevation = seq(0, 10, by = 0.5),
-                 discharge = c(0, 3, 8, 17, 30, 43, 60, 78, 97, 117, 137, 156,
-                               173, 190, 205, 218, 231, 242, 253, 264, 275))
+         discharge = c(0, 3, 8, 17, 30, 43, 60, 78, 97, 117, 137,
+         156, 173, 190, 205, 218, 231, 242, 253, 264, 275))
 ```
 
 ``` r
 res_osc <- level_pool_routing(lt, qh, area = 43560, delta_t = 600,
-            initial_outflow = 0, initial_storage = 0, linear.fit = FALSE)
+            initial_outflow = 0, initial_storage = 0,
+            linear.fit = FALSE)
 ```
 
 ![](../public/images/osc%20plotting-1.png)
 
 ``` r
 
-plot(res_osc$time, res_osc$inflow, xlab = "Time (s)", ylab = "Flow (cfs)")
+plot(res_osc$time, res_osc$inflow, xlab = "Time (s)",
+  ylab = "Flow (cfs)")
 lines(res_osc$time, res_osc$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
-       pch = c(21, NA))
+  pch = c(21, NA))
 ```
 
 ![](../public/images/osc%20plotting-2.png)
