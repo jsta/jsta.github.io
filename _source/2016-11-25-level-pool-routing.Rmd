@@ -121,7 +121,7 @@ res_linear <- level_pool_routing(input_hydro, reservoir_char, area = NA,
 
 ```{r linear outflow-storage final plotting}
 plot(res_linear$time, res_linear$inflow,
-     xlab = "Time (s)", ylab = "Flow (m3/s)")
+     xlab = "Time (h)", ylab = "Flow (m3/s)")
 lines(res_linear$time, res_linear$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
        pch = c(21, NA))
@@ -169,7 +169,7 @@ res_curv <- level_pool_routing(lt = tbl1, qh = tbl2, area = NA, delta_t = 7200,
 ```
 
 ```{r curvilinear plotting}
-plot(res_curv$time, res_curv$inflow, xlab = "Time (s)", ylab = "Flow (m3/s)")
+plot(res_curv$time, res_curv$inflow, xlab = "Time (h)", ylab = "Flow (m3/s)")
 lines(res_curv$time, res_curv$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
        pch = c(21, NA))
@@ -193,7 +193,7 @@ qh <- data.frame(elevation = seq(0, 10, by = 0.5),
 res_osc <- level_pool_routing(lt, qh, area = 43560, delta_t = 600,
             initial_outflow = 0, initial_storage = 0, linear.fit = FALSE)
 
-plot(res_osc$time, res_osc$inflow, xlab = "Time (s)", ylab = "Flow (cfs)")
+plot(res_osc$time, res_osc$inflow, xlab = "Time (h)", ylab = "Flow (cfs)")
 lines(res_osc$time, res_osc$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
        pch = c(21, NA))
