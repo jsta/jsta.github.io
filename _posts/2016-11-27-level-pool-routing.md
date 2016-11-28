@@ -123,7 +123,7 @@ res_linear <- level_pool_routing(input_hydro, reservoir_char,
 
 ``` r
 plot(res_linear$time, res_linear$inflow,
-     xlab = "Time (s)", ylab = "Flow (m3/s)")
+     xlab = "Time (h)", ylab = "Flow (m3/s)")
 lines(res_linear$time, res_linear$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
        pch = c(21, NA))
@@ -180,7 +180,7 @@ res_curv <- level_pool_routing(lt = tbl1, qh = tbl2, area = NA,
 ![](../public/images/curvilinear%20routing-1.png)
 
 ``` r
-plot(res_curv$time, res_curv$inflow, xlab = "Time (s)",
+plot(res_curv$time, res_curv$inflow, xlab = "Time (h)",
   ylab = "Flow (m3/s)")
 lines(res_curv$time, res_curv$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
@@ -216,7 +216,7 @@ res_osc <- level_pool_routing(lt, qh, area = 43560, delta_t = 600,
 
 ``` r
 
-plot(res_osc$time, res_osc$inflow, xlab = "Time (s)",
+plot(res_osc$time, res_osc$inflow, xlab = "Time (h)",
   ylab = "Flow (cfs)")
 lines(res_osc$time, res_osc$outflow)
 legend("topleft", legend = c("Inflow", "Outflow"), lty = c(NA, 1),
