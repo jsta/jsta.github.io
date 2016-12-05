@@ -151,6 +151,8 @@ cv: yes
   
 ## Service Activity
   
+  - Reviewer (2016) _Journal of Open Source Software_
+  
   - Reviewer (2016) _Peerage of Science_
   
   - Reviewer (2016) _Journal of Open Source Software_
