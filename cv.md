@@ -129,6 +129,10 @@ cv: yes
 
 ## Teaching Experience
 
+### Michigan State University - Institute for Cyber-enabled Research
+
+  -  Delivered workshops to teach basic Python and Linux command line use (Spring 2017)
+
 ### Software Carpentry
 
 - Instructor (2016 - present)
@@ -150,6 +154,8 @@ cv: yes
 -----
   
 ## Service Activity
+  
+  - Reviewer (2016) _Texas Water Journal_
   
   - Reviewer (2016) _Journal of Open Source Software_
   
