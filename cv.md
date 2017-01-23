@@ -26,7 +26,7 @@ cv: yes
 
 ###  **BSc, Marine Science** (2008) University of Maine, Orono
 
-- Thesis: "Constructing a guide to the Intertidal Algae of Acadia National Park and testing DNA Barcoding" ([http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf](http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf))
+- Thesis: "Constructing a guide to the Intertidal Algae of Acadia National Park" ([http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf](http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf))
 - Supervisor: Dr. Susan Brawley
 
 ### Additional Courses and Training
