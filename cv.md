@@ -26,7 +26,7 @@ cv: yes
 
 ###  **BSc, Marine Science** (2008) University of Maine, Orono
 
-- Thesis: "Constructing a guide to the Intertidal Algae of Acadia National Park" ([http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf](http://www.nps.gov/acad/naturescience/upload/FieldGuidetoMarinePlantsAlgae.pdf))
+- Thesis: "Constructing a guide to the Intertidal Algae of Acadia National Park" ([pdf](public/FieldGuidetoMarinePlantsAlgae.pdf))
 - Supervisor: Dr. Susan Brawley
 
 ### Additional Courses and Training
@@ -92,13 +92,19 @@ cv: yes
 
    - Park, S.R., **Stachelek, J.**, Dunton K.H., (_submitted_) Photosynthesis and drought resilience in three emergent vascular plant species common to marshes of the western Gulf of Mexico. Estuaries and Coasts.
    
-   - **Stachelek J.**, Madden, C.J., Kelly, S.P, Blaha, M. (_in-prep_). Fine-scale relationships between phytoplankton abundance and environmental drivers in Florida Bay, USA.
+   - **Stachelek J.**, Madden, C.J., Kelly, S.P, Blaha, M. (_submitted_). Fine-scale relationships between phytoplankton abundance and environmental drivers in Florida Bay, USA.
    
    - **Stachelek J.**, Kelly, S.P, Sklar, F., Coronado, C.M., Troxler, T., Bauman, L. (_in-prep_). A mesocosm design for simulating sea-level rise associated saltwater intrusion in coastal wetlands.
+   
+### Datasets
+
+ - Madden C, **Stachelek J**, Kelly S, Blaha M (2017) Florida Bay water quality estimated by underway flow-through measurement. KNB Data Repository. [http://dx.doi.org/10.5063/F1MP517C](http://dx.doi.org/10.5063/F1MP517C)
 
 -----
 
 ## Presentations
+
+- ** Stachelek, J.** (2017) Lake Connectivity Effects on Phosphorus in 1,000s of Lakes. Michigan State University Fisheries and Wildlife Graduate Research Symposium.
 
 - **Stachelek, J.**, Madden, C.J., Kelly, S., Blaha, M. (2016). Fine-scale spatial patterning of phytoplankton abundance in a coastal estuary. Ecological Society of America Meeting, Fort Lauderdale, Florida, USA. [slides](https://figshare.com/articles/Ecological_Society_of_America/2775322)
 
@@ -155,15 +161,9 @@ cv: yes
   
 ## Service Activity
   
-  - Reviewer (2016) _Texas Water Journal_
+  - Reviewer (2017) _Journal of Open Source Software_
   
-  - Reviewer (2016) _Journal of Open Source Software_
-  
-  - Reviewer (2016) _Peerage of Science_
-  
-  - Reviewer (2016) _Journal of Open Source Software_
-  
-  - Reviewer (2016) _Journal of Atmospheric and Oceanic Technology_
+  - Reviewer (2016) _Texas Water Journal_, _Journal of Open Source Software_ (2), _Peerage of Science_, _Journal of Atmospheric and Oceanic Technology_
   
   - Reviewer (2015) _Ecological Modelling_
   
