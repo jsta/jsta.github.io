@@ -104,7 +104,7 @@ cv: yes
 
 ## Presentations
 
-- ** Stachelek, J.** (2017) Lake Connectivity Effects on Phosphorus in 1,000s of Lakes. Michigan State University Fisheries and Wildlife Graduate Research Symposium.
+- **Stachelek, J.** (2017) Lake Connectivity Effects on Phosphorus in 1,000s of Lakes. Michigan State University Fisheries and Wildlife Graduate Research Symposium.
 
 - **Stachelek, J.**, Madden, C.J., Kelly, S., Blaha, M. (2016). Fine-scale spatial patterning of phytoplankton abundance in a coastal estuary. Ecological Society of America Meeting, Fort Lauderdale, Florida, USA. [slides](https://figshare.com/articles/Ecological_Society_of_America/2775322)
 
