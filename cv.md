@@ -161,7 +161,7 @@ cv: yes
   
 ## Service Activity
   
-  - Reviewer (2017) _Journal of Open Source Software_
+  - Reviewer (2017) _Journal of Open Source Software_, _Frontiers in Ecology and Evolution_
   
   - Reviewer (2016) _Texas Water Journal_, _Journal of Open Source Software_ (2), _Peerage of Science_, _Journal of Atmospheric and Oceanic Technology_
   
