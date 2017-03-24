@@ -94,7 +94,7 @@ cv: yes
    
    - **Stachelek J.**, Madden, C.J., Kelly, S.P, Blaha, M. (_submitted_). Fine-scale relationships between phytoplankton abundance and environmental drivers in Florida Bay, USA.
    
-   - **Stachelek J.**, Kelly, S.P, Sklar, F., Coronado, C.M., Troxler, T., Bauman, L. (_in-prep_). A mesocosm design for simulating sea-level rise associated saltwater intrusion in coastal wetlands.
+   - **Stachelek J.**, Kelly, S.P, Sklar, F., Coronado, C.M., Troxler, T., Bauman, L. (_submitted_). A mesocosm design for simulating sea-level rise associated saltwater intrusion in coastal wetlands.
    
 ### Datasets
 
