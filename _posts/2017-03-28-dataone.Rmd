@@ -1,0 +1,74 @@
+---
+title: "Interact with DataONE data repositories with the dataone package"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The `dataone` package enables users to construct programmatic queries to DataONE data repositories. This should go a long way towards increasing reproducibility. Here I show an analysis where I attempt to locate and analyze Oneida Lake benthic invertebrate data all without leaving my RStudio session. 
+
+## Setup
+
+I know that my target data is on KNB so I start by setting up `dataone` for a node specific search:
+
+```{r }
+library(dataone)
+
+cn <- CNode("PROD")
+mn <- getMNode(cn, "urn:node:KNB")
+cli <- D1Client("PROD", "urn:node:KNB")
+```
+
+## Get data
+
+Initially, I have no idea how to locate the package I am interested other than knowing that the title should include the _benthic_ and _Oneida_ keywords. I use the Solr query method to query the database on the _Oneida_ keyword while running a filter on the results corresponding to the _benthic_ keyword. We limit the result fields to _id_, _title_, and _dateModified_. 
+
+```{r, message=FALSE}
+(qy <- dataone::query(cn, list(
+                              rows = "300", 
+                              q    = "title:*Oneida*",
+                              fq   = "(title:*benthic*)",
+                              fl   = "id,title,dateModified"), 
+                     as = "data.frame"))
+```
+
+As far as I can tell, the results returned by a KNB website query include only the entries **not** prefixed by a doi designation. Let's filter our results to exclude these entries:
+
+```{r, message=FALSE}
+library(dplyr)
+(qy <- slice(qy, grep("^doi", id, invert = TRUE)))
+```
+
+If we sort the result on the _dateModified_ field we can find which result is the most recent:
+
+```{r }
+(qy <- arrange(qy, desc(id), desc(dateModified)))
+```
+
+Next, we can download the data package with the `getPackage` command. This command returns the location of a zip file in the machine's temporary file system which we can feed to the `unzip` function. 
+
+```{r eval=FALSE}
+(dt <- getPackage(mn, id = paste0("resourceMap_", qy[1,"id"])))
+unzip(dt)
+```
+
+```{r eval=FALSE}
+# list.files("resourceMap_kgordon_4_57/data")
+dt <- read.csv("resourceMap_kgordon_4_57/data/cbfs.140.3-Oneida_Benthos_1956_to_present.csv", stringsAsFactors=FALSE)
+
+# Plot data ####
+library(dplyr)
+library(ggplot2)
+
+dt <- group_by(dt, Year)
+dt <- summarise_each(dt, funs(mean), 5:17)
+dt <- reshape2::melt(dt, "Year")
+
+gg <- ggplot(data = dt) + 
+        geom_line(aes(x = Year, y = value)) + 
+        facet_wrap(~variable)
+gg
+
+```
