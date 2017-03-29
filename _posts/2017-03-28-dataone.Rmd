@@ -7,25 +7,24 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-The `dataone` package enables users to construct programmatic queries to DataONE data repositories. This should go a long way towards increasing reproducibility. Here I show an analysis where I attempt to locate and analyze Oneida Lake benthic invertebrate data all without leaving my RStudio session. 
+The `dataone` package enables users to construct programmatic queries to DataONE data repositories. This should be very helpful for people interested in making their analyses reproducible! Here I show my workflow for locating, analyzing, and plotting Oneida Lake benthic invertebrate data all without leaving my RStudio session. 
 
 ## Setup
 
-I know that my target data is on KNB so I start by setting up `dataone` for a node specific search:
+Let's assume that I know that my target data is on [KNB](https://knb.ecoinformatics.org/) so I start by setting up `dataone` for a node specific KNB search:
 
 ```{r }
 library(dataone)
 
 cn <- CNode("PROD")
 mn <- getMNode(cn, "urn:node:KNB")
-cli <- D1Client("PROD", "urn:node:KNB")
 ```
 
-## Get data
+## Find data id
 
-Initially, I have no idea how to locate the package I am interested other than knowing that the title should include the _benthic_ and _Oneida_ keywords. I use the Solr query method to query the database on the _Oneida_ keyword while running a filter on the results corresponding to the _benthic_ keyword. We limit the result fields to _id_, _title_, and _dateModified_. 
+Let's also assume that, at least initially, I do not know the id of my target dataset. I only know that the dataset title should include the _benthic_ and _Oneida_ keywords. I choose to use the Solr method to query the database on the _Oneida_ keyword and filter the results to entries containing the _benthic_ keyword. I limit the result fields to _id_, _title_, and _dateModified_. For more explanation of the Solr query method see this [dataone vignette](https://github.com/DataONEorg/rdataone/blob/master/vignettes/searching-dataone.Rmd). 
 
-```{r, message=FALSE}
+```{r, message=FALSE, eval=FALSE}
 (qy <- dataone::query(cn, list(
                               rows = "300", 
                               q    = "title:*Oneida*",
@@ -34,31 +33,55 @@ Initially, I have no idea how to locate the package I am interested other than k
                      as = "data.frame"))
 ```
 
-As far as I can tell, the results returned by a KNB website query include only the entries **not** prefixed by a doi designation. Let's filter our results to exclude these entries:
+```{r, message=FALSE, echo=FALSE}
+head(qy <- dataone::query(cn, list(
+                              rows = "300", 
+                              q    = "title:*Oneida*",
+                              fq   = "(title:*benthic*)",
+                              fl   = "id,title,dateModified"), 
+                     as = "data.frame"), 10)
+```
+
+As far as I know, the results returned by a KNB website query include only the entries **not** prefixed by a doi designation. Let's filter our results to exclude the doi entries and sort on the _dateModified_ field to find the most recent result version:
+:
 
 ```{r, message=FALSE}
 library(dplyr)
 (qy <- slice(qy, grep("^doi", id, invert = TRUE)))
-```
-
-If we sort the result on the _dateModified_ field we can find which result is the most recent:
-
-```{r }
 (qy <- arrange(qy, desc(id), desc(dateModified)))
 ```
 
-Next, we can download the data package with the `getPackage` command. This command returns the location of a zip file in the machine's temporary file system which we can feed to the `unzip` function. 
+## Get data package
 
-```{r eval=FALSE}
-(dt <- getPackage(mn, id = paste0("resourceMap_", qy[1,"id"])))
+Next, I download the data package with the `getPackage` command. This command returns the location of a zip file in the machine's temporary file system which can be fed to the `unzip` function. 
+
+```{r eval=TRUE, message=FALSE}
+resource_path <- paste0("resourceMap_", qy[1,"id"])
+dt <- getPackage(mn, id = resource_path)
 unzip(dt)
 ```
 
 ```{r eval=FALSE}
-# list.files("resourceMap_kgordon_4_57/data")
-dt <- read.csv("resourceMap_kgordon_4_57/data/cbfs.140.3-Oneida_Benthos_1956_to_present.csv", stringsAsFactors=FALSE)
+# the unzipped folder has underscores as separators rather than periods
+package_path <- file.path(gsub("\\.", "_", resource_path), "data")
+```
 
-# Plot data ####
+```{r eval=TRUE, echo=FALSE}
+package_path <- file.path("..", gsub("\\.", "_", resource_path), "data")
+```
+
+```{r }
+(flist <- list.files(package_path))
+fpath <- file.path(package_path, flist[1])
+dt <- read.csv(fpath, stringsAsFactors = FALSE)
+head(dt)
+```
+
+## Plot data
+
+Now that I have the dataset located, downloaded, and read into a `data.frame` object I go ahead and plot the result while facetting on organism class.
+
+```{r plot data}
 library(dplyr)
 library(ggplot2)
 
@@ -70,5 +93,4 @@ gg <- ggplot(data = dt) +
         geom_line(aes(x = Year, y = value)) + 
         facet_wrap(~variable)
 gg
-
 ```
