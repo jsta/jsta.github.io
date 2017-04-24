@@ -161,6 +161,8 @@ cv: yes
   
 ## Service Activity
   
+  - Soranno, P., King, K., Poisson, A., **Stachelek, J.**, Boudreau, C., Skaff, N., Smith, N. (2017) Cyberinfrastructure support for collaboration and open science in ecology. NSF Request for Information on Future Needs for Advanced Cyberinfrastructure to Support Science and Engineering Research ([https://www.nsfci2030.org/](https://www.nsfci2030.org/))
+  
   - Reviewer (2017) _Journal of Open Source Software_, _Frontiers in Ecology and Evolution_
   
   - Reviewer (2016) _Texas Water Journal_, _Journal of Open Source Software_ (2), _Peerage of Science_, _Journal of Atmospheric and Oceanic Technology_
