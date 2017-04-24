@@ -135,9 +135,9 @@ cv: yes
 
 ## Teaching Experience
 
-### Michigan State University - Institute for Cyber-enabled Research
+### Michigan State University 
 
-  -  Delivered workshops to teach basic Python and Linux command line use (Spring 2017)
+  -  Delivered workshops to teach basic Python and Linux command line use (Institute for Cyber-enabled Research, Spring 2017)
 
 ### Software Carpentry
 
