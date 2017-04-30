@@ -31,6 +31,8 @@ cv: yes
 
 ### Additional Courses and Training
 
+- Introduction to Bayesian Statistics, Spring 2017, Michigan State University, Andrew Finley.
+
 - The Mgcv Package As a One-Stop-Shop for Fitting Non-Linear Ecological Models, Summer 2016, Ecological Society of America. Gavin Simpson, David Miller, Eric Pedersen.
 
 - Using R for High Performance Computing, Winter 2015, National Institute for Mathematical and Biological Synthesis. Drew Schmidt.
@@ -137,13 +139,15 @@ cv: yes
 
 ### Michigan State University 
 
+  - Delivered workshops to teach version control software (Git) for application in academic research (EEBB Programming Group, Spring 2017)
+
   -  Delivered workshops to teach basic Python and Linux command line use (Institute for Cyber-enabled Research, Spring 2017)
 
 ### Software Carpentry
 
 - Instructor (2016 - present)
 
-- Delivered workshops (2) to teach basic lab skills for research computing
+- Delivered workshops (2) to teach GIS skills for research computing
   
 ### NSF GK-12 Fellowship - University of Texas Marine Science Institute / Port Aransas HS
 
