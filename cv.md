@@ -104,8 +104,6 @@ cv: yes
 
 - Madden C, **Stachelek J**, Kelly S, Blaha M. 2017. Florida Bay water quality estimated by underway flow-through measurement. KNB Data Repository. [http://dx.doi.org/10.5063/F11R6NGR](http://dx.doi.org/10.5063/F11R6NGR)
 
- - Madden C, **Stachelek J**, Kelly S, Blaha M (2017) Florida Bay water quality estimated by underway flow-through measurement. KNB Data Repository. [http://dx.doi.org/10.5063/F11R6NGR](http://dx.doi.org/10.5063/F11R6NGR)
- 
 -----
 
 ## Presentations
