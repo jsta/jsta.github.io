@@ -92,13 +92,13 @@ cv: yes
   
 ### In-Prep (manuscripts available upon request)
 
-  - Soranno P.A., <62 alphabetical authors>, **Stachelek J.**, <15 alphabetical authors>. (_submitted_) LAGOS-NE: A multi-scaled geospatial and temporal database of lake ecological context and water quality for thousands of U.S. lakes. Gigascience.
+  - Soranno P.A., <62 alphabetical authors>, **Stachelek J.**, <15 alphabetical authors>. (_in review_) LAGOS-NE: A multi-scaled geospatial and temporal database of lake ecological context and water quality for thousands of U.S. lakes. Gigascience.
 
    - **Stachelek J.**, Madden, C.J., Kelly, S.P, Blaha, M. (_in review_). Fine-scale relationships between phytoplankton abundance and environmental drivers in Florida Bay, USA. Estuaries and Coasts.
    
    - Park, S.R., **Stachelek, J.**, Dunton K.H., (_submitted_) Photosynthesis and drought resilience in three emergent vascular plant species common to marshes of the western Gulf of Mexico. Estuaries and Coasts.
    
-   - **Stachelek J.**, Kelly, S.P, Sklar, F., Coronado, C.M., Troxler, T., Bauman, L. (_submitted_). A mesocosm design for simulating sea-level rise associated saltwater intrusion in coastal wetlands.
+   - **Stachelek J.**, Kelly, S.P, Sklar, F., Coronado, C.M., Troxler, T., Bauman, L. (_in review_). A mesocosm design for simulating sea-level rise associated saltwater intrusion in coastal wetlands.
    
    
    
