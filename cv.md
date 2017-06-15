@@ -63,9 +63,13 @@ cv: yes
 
 - `dbhydroR`: Everglades Hydrologic and Water Quality Data from R. [https://github.com/SFWMD/dbhydroR](https://github.com/SFWMD/dbhydroR)
 
+- `wikilake`: Scrape Lake Metadata Tables from Wikipedia [https://github.com/jsta/wikilake](https://github.com/jsta/wikilake) 
+
 **Contributor**
 
 - `rnoaa`: 'NOAA' Weather Data from R. [https://github.com/ropensci/rnoaa](https://github.com/ropensci/rnoaa)
+
+- `lakemorpho`: Lake Morphometry Metrics in R. [https://github.com/USEPA/lakemorpho](https://github.com/USEPA/lakemorpho)
 
 ### Other software experience
 
