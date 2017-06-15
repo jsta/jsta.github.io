@@ -15,14 +15,13 @@ cv: yes
 ## Education
 
 ###  **PhD, Fisheries and Wildlife** (in progress) Michigan State University, East Lansing
-
+- Dissertation Theme: "Landscape Limnology"
   - Supervisor: Dr. Pat Soranno
   
 ###  **MS, Marine Science** (2012) University of Texas, Austin
 
 - Thesis: "Freshwater inflows in the Nueces Delta, TX : impacts on porewater salinity and estimation of needs." ([http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549](http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549))
 - Supervisor: Dr. Ken Dunton
-- Research: used multivariate statistics and time-series analyses to develop indicators of ecological condition for Texas estuaries. Research products were used in a statewide review of water resources management plans. Deployed a variety of novel water quality sensors to investigate surfacewater - groundwater exchange.
 
 ###  **BSc, Marine Science** (2008) University of Maine, Orono
 
