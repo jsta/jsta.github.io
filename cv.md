@@ -20,7 +20,7 @@ cv: yes
   
 ###  **MS, Marine Science** (2012) University of Texas, Austin
 
-- Thesis: "Freshwater inflows in the Nueces Delta, TX : impacts on porewater salinity and estimation of needs." ([http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549](http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549))
+- Thesis: "Freshwater inflows in the Nueces Delta, TX : impacts on porewater salinity and estimation of needs." ([link](http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2012-05-5549))
 - Supervisor: Dr. Ken Dunton
 
 ###  **BSc, Marine Science** (2008) University of Maine, Orono
