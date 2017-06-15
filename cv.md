@@ -192,9 +192,14 @@ cv: yes
 - National Public Radio (2016) Rising Seas Push Too Much Salt Into the Florida Everglades. [link](http://www.npr.org/2016/05/25/477014085/rising-seas-push-too-much-salt-into-the-florida-everglades)
   
 - PBS Newshour (2015) Florida's Everglades face new invasive threat: rising sea levels. [youtube](https://www.youtube.com/watch?v=ggOl-vaXIFk)
-  
+
 -----
 
+## Honors and Awards
+
+- Invited participant to the 2017 rOpenSci Conference
+  
+-----
 
 ## Membership
   
