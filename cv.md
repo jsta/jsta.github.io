@@ -197,7 +197,7 @@ cv: yes
 
 ## Honors and Awards
 
-- Invited participant to the 2017 rOpenSci Conference
+- Invited participant to the [2017 rOpenSci Conference](http://unconf17.ropensci.org/)
   
 -----
 
