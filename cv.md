@@ -61,7 +61,7 @@ cv: yes
 
 - `ipdw`: Interpolation by Inverse Path Distance Weighting. [https://github.com/jsta/ipdw](https://github.com/jsta/ipdw)
 
-- `dbhydroR`: Everglades Hydrologic and Water Quality Data from R. [https://github.com/SFWMD/dbhydroR](https://github.com/SFWMD/dbhydroR)
+- `dbhydroR`: Everglades Hydrologic and Water Quality Data from R. [https://github.com/SFWMD/dbhydroR](https://github.com/ropenscilabs/dbhydroR)
 
 - `wikilake`: Scrape Lake Metadata Tables from Wikipedia [https://github.com/jsta/wikilake](https://github.com/jsta/wikilake) 
 
@@ -201,6 +201,10 @@ cv: yes
 ## Honors and Awards
 
 - Invited participant to the [2017 rOpenSci Conference](http://unconf17.ropensci.org/)
+
+- Finalist for the 2012 NOAA Coastal Management Fellowship
+
+- Best poster award at the 2012 Texas Bays and Estuaries Meeting
   
 -----
 
