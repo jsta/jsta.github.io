@@ -200,6 +200,8 @@ cv: yes
 
 ## Honors and Awards
 
+- GLEON Student Travel Award 2017
+
 - Invited participant to the [2017 rOpenSci Conference](http://unconf17.ropensci.org/)
 
 - Finalist for the 2012 NOAA Coastal Management Fellowship
