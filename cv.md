@@ -49,7 +49,7 @@ cv: yes
 - Member of a research team focused on ecological restoration of the Florida Everglades with particular emphasis on the extent to which the Everglades watershed influences downstream estuaries. 
 - Responsible for translating ecological information and the results of water quality surveys for use in environmental management. 
 - Developed geospatial water quality models. Prepared reports and other materials for presentations to decision makers. 
-- Responsible for curating massive environmental databases and developing custom GIS visualization and anaylsis tools. 
+- Responsible for curating massive environmental databases and developing custom GIS visualization and analysis tools. 
 
 -----
 
