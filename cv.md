@@ -95,6 +95,8 @@ cv: yes
   
 ### In-Prep (manuscripts available upon request)
 
+  - **Stachelek J.**, Ford, C., Kincaid, D., King, K., Miller, H, and Nagelkirk, R.: The National Eutrophication Survey: lake characteristics and historical nutrient concentrations, Earth Syst. Sci. Data Discuss., https://doi.org/10.5194/essd-2017-52 , (_in review_), 2017.  
+
   - Soranno P.A., <62 alphabetical authors>, **Stachelek J.**, <15 alphabetical authors>. (_in review_) LAGOS-NE: A multi-scaled geospatial and temporal database of lake ecological context and water quality for thousands of U.S. lakes. Gigascience.
 
    - **Stachelek J.**, Madden, C.J., Kelly, S.P, Blaha, M. (_in review_). Fine-scale relationships between phytoplankton abundance and environmental drivers in Florida Bay, USA. Estuaries and Coasts.
@@ -176,7 +178,7 @@ cv: yes
   
   - Soranno, P., King, K., Poisson, A., **Stachelek, J.**, Boudreau, C., Skaff, N., Smith, N. (2017) Cyberinfrastructure support for collaboration and open science in ecology. NSF Request for Information on Future Needs for Advanced Cyberinfrastructure to Support Science and Engineering Research ([https://www.nsfci2030.org/](https://www.nsfci2030.org/))
   
-  - Reviewer (2017) _Journal of Open Source Software_, _Frontiers in Ecology and Evolution_
+  - Reviewer (2017) _Journal of Open Source Software_, _Frontiers in Ecology and Evolution_, [ROpenSci](https://github.com/ropensci/onboarding/issues/118)
   
   - Reviewer (2016) _Texas Water Journal_, _Journal of Open Source Software_ (2), _Peerage of Science_, _Journal of Atmospheric and Oceanic Technology_
   
