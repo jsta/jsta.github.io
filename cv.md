@@ -95,7 +95,7 @@ cv: yes
   
 ### In-Prep (manuscripts available upon request)
 
-  - **Stachelek J.**, Ford, C., Kincaid, D., King, K., Miller, H, and Nagelkirk, R.: The National Eutrophication Survey: lake characteristics and historical nutrient concentrations, Earth Syst. Sci. Data Discuss., https://doi.org/10.5194/essd-2017-52 , (_in review_), 2017.  
+  - **Stachelek J.**, Ford, C., Kincaid, D., King, K., Miller, H, and Nagelkirk, R.: The National Eutrophication Survey: lake characteristics and historical nutrient concentrations, Earth Syst. Sci. Data Discuss., [https://doi.org/10.5194/essd-2017-52](https://doi.org/10.5194/essd-2017-52) , (_in review_), 2017.  
 
   - Soranno P.A., <62 alphabetical authors>, **Stachelek J.**, <15 alphabetical authors>. (_in review_) LAGOS-NE: A multi-scaled geospatial and temporal database of lake ecological context and water quality for thousands of U.S. lakes. Gigascience.
 
