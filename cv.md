@@ -30,6 +30,8 @@ cv: yes
 
 ### Additional Courses and Training
 
+- Bayesian Statistics Workshop, Summer 2017, Michigan State University, Song Qian.
+
 - Introduction to Bayesian Statistics, Spring 2017, Michigan State University, Andrew Finley.
 
 - The Mgcv Package As a One-Stop-Shop for Fitting Non-Linear Ecological Models, Summer 2016, Ecological Society of America. Gavin Simpson, David Miller, Eric Pedersen.
