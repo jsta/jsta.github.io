@@ -163,6 +163,8 @@ cv: yes
 - Instructor (2016 - present)
 
 - Delivered workshops (2) to teach GIS skills for research computing
+
+- Lesson Mainainter, (2015 - present), [Geospatial Data Analysis with R](http://www.datacarpentry.org/lessons/). Data Carpentry.
   
 ### NSF GK-12 Fellowship - University of Texas Marine Science Institute / Port Aransas HS
 
@@ -187,8 +189,6 @@ cv: yes
   - Reviewer (2016) _Texas Water Journal_, _Journal of Open Source Software_ (2), _Peerage of Science_, _Journal of Atmospheric and Oceanic Technology_
   
   - Reviewer (2015) _Ecological Modelling_
-  
-  - Lesson Mainainter, (2015 - present), [Geospatial Data Analysis with R](http://www.datacarpentry.org/lessons/). Data Carpentry. 
   
 - NEON spatio-temporal hackathon (2015) - developed tutorials and assessment instruments to teach fundamental big data skills needed to work efficiently with large spatio-temporal data using open tools, such as R and Python. [link](http://www.neoninc.org/updates-events/update/nsf-biocenters-unite-close-scientific-data-skills-gap-focus-phenology)
   
