@@ -78,7 +78,7 @@ cv: yes
 - Operating Systems: Debian/Ubuntu/Fedora Linux, Windows
 - Office productivity software: Microsoft Office (Word, Excel and PowerPoint), LibreOffice, LaTeX
 - Statistical Software: R
-- Coding languages: R, Python, Matlab
+- Coding languages: R, Python, Fortran
 - Data management: SQLite, netcdf
 - Version control systems: Git, GitHub
 - Web development: `shiny`
