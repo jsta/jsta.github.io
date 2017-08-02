@@ -109,6 +109,7 @@ cv: yes
    
    - **Stachelek J.**, Kelly, S.P, Sklar, F., Coronado, C.M., Troxler, T., Bauman, L. (_in review_). A mesocosm design for simulating sea-level rise associated saltwater intrusion in coastal wetlands.
    
+   - Hollister J., **Stachelek J.** (_in-prep_) lakemorpho: Calculating lake morphometry metrics in R.
    
    
 ### Datasets
