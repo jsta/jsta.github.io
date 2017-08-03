@@ -1,7 +1,6 @@
 ---
 title: "Curriculum Vitae"
 layout: page
-output: pdf_document
 includes:
 in_header: fullrule.tex
 in_body: \usepackage{hyperref}
@@ -9,6 +8,8 @@ cv: yes
 ---
 
 # Joseph Stachelek
+
+![pdf](/public/cv.pdf)
 
 ---
 
