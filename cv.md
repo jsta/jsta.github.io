@@ -7,9 +7,9 @@ in_body: \usepackage{hyperref}
 cv: yes
 ---
 
-# Joseph Stachelek
+[pdf version](/public/cv.pdf)
 
-![pdf](/public/cv.pdf)
+# Joseph Stachelek
 
 ---
 
