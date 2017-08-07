@@ -123,6 +123,8 @@ cv: yes
 
 ## Presentations
 
+- Collins, S.M, Cheruvelil, K.S., Fergus, C.E., Lapierre, J.F., Oliver, S.K., Scott, C.E., Skaff, N.K., Soranno, P.A., **Stachelek, J.**, Tan, P., Yuan, S. and Wagner, T. (2017)  Which measures of climate are the best predictors of lake water quality at sub-continental scales? Ecological Society of America Meeting, Portland, Oregon, USA.
+
 - **Stachelek, J.** (2017) Lake Connectivity Effects on Phosphorus in 1,000s of Lakes. Michigan State University Fisheries and Wildlife Graduate Research Symposium.
 
 - **Stachelek, J.**, Madden, C.J., Kelly, S., Blaha, M. (2016). Fine-scale spatial patterning of phytoplankton abundance in a coastal estuary. Ecological Society of America Meeting, Fort Lauderdale, Florida, USA. [slides](https://figshare.com/articles/Ecological_Society_of_America/2775322)
