@@ -41,7 +41,7 @@ github:
   repo:           
 
 #Plugins
-gems:
+plugins:
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
